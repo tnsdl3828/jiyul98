@@ -1,0 +1,484 @@
+@charset "utf-8";
+
+/*헤더시작*/
+#header{
+    width: 100%;
+    padding-left: 50px;
+    position: fixed;
+    box-sizing: border-box;
+    background: #fff;
+    z-index: 10;
+}
+#header h1{
+    width: 183px;
+    line-height: 105px;
+    height: 105px;
+    background: url(../images/common/logo.png) no-repeat;
+    background-position: center center;
+    
+    text-indent: -9999px;
+    float: left;
+}
+#header h1 a{
+    display: block;
+}
+
+/*gnb시작*/
+.gnb{
+    height: 45px;
+    line-height: 45px;
+    float: left;
+    margin-left: 40px;
+}
+.gnb li{
+    float: left;
+    height: 105px;
+    line-height: 105px;
+    padding: 0 30px;
+    position: relative;
+}
+.gnb li:hover .lnb{
+    border-top: 5px solid #f47a20;
+    max-height: 500px;
+}
+.gnb li a{
+    color: #292929;
+    font-size: 17px;
+}
+.gnb .fa-bullhorn{
+    color: hotpink;
+}
+
+/*lnb*/
+.lnb{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 100px;
+    background: #fff;
+    max-height: 0;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: all 0.3s;
+}
+.lnb li{
+    padding: 0 10px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 35px;
+    line-height: 35px;
+}
+.lnb li:last-child a{
+    border-bottom: 0;
+}
+.lnb li:hover a{
+    color: #f47a20;
+}
+.lnb li a{
+    font-size: 13px;
+    display: block;
+    color: #848484;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+/*탑메뉴시작*/
+.topMenu{
+    width: 360px;
+    height: 50px;
+    line-height: 50px;
+    position: absolute;
+    right: 0;
+    bottom: -51px;
+    border-top: 1px solid #f3f3f3;
+    background: #fff;
+    z-index: 1;
+}
+.topMenu li{
+    width: 180px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+.topMenu li .on{
+    display: none;
+}
+.topMenu li:hover .on{
+    display: inline-block;
+}
+.topMenu li:hover .off{
+    display: none;
+}
+.topMenu li:hover a{
+    color: #f47a20;
+}
+.topMenu li a{
+    display: block;
+    color: #a5a5a5;
+    font-size: 13px;
+}
+.topMenu li a:after{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    background: #f3f3f3;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -5px;
+}
+
+/*푸터*/
+#footer{}
+
+.footerTop{
+    border-top: 1px solid #222;
+}
+.footerTop div{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+.footerTop span{
+    vertical-align: middle;
+}
+.footerTop .title{
+    font-size: 16px;
+    color: #2c2c2c;
+}
+.footerTop .title:after{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    background: #e9e9e9;
+    vertical-align: middle;
+    margin: 0 15px;
+}
+.footerTop .con{
+    font-size: 14px;
+    color: #888;
+}
+.footerTop .icon{
+    width: 70px;
+    height: 82px;
+    display: inline-block;
+    text-indent: -9999px;
+}
+.topLeft .icon{
+    background: url(../images/sub/ico_board_1.jpg) no-repeat;
+}
+.topRight .icon{
+    background: url(../images/sub/ico_board_2.jpg) no-repeat;
+}
+
+.topLeft{
+    border-right: 1px solid #ddd;
+}
+
+/*footerBottom*/
+.footerBottom{
+    background: #f3f1f4;
+    padding-top: 40px;
+    position: relative;
+}
+
+/*left*/
+.footerCs{
+    width: 250px;
+    float: left;
+    border-right: 1px solid #ddd;
+    padding-left: 40px;
+}
+.footerCs h3{
+    font-size: 20px;
+    color: #2c2c2c;
+}
+.footerCs h3 span{
+    font-size: 16px;
+    color: #6c6c6c;
+    font-weight: 400;
+    display: block;
+}
+
+.csNumber{
+    font-size: 30px;
+    line-height: 28px;
+    margin: 15px 0;
+}
+.csNumber span{
+    font-size: 20px;
+    display: block;
+}
+
+.csEmail{
+    font-size: 14px;
+    color: #6c6c6c;
+}
+
+.csIcon{
+    margin-top: 15px;
+}
+.csIcon li{
+    width: 25px;
+    height: 25px;
+    background: #343235;
+    border-radius: 50%;
+    float: left;
+    margin-right: 5px;
+}
+.csIcon li:hover{
+    background: #222;
+}
+.csIcon li a{}
+.csIcon li a img{
+    width: 100%;
+}
+
+/*center*/
+.footerInfo{
+    float: left;
+    margin-left: 30px;
+}
+
+.infoTitle h3{
+    font-size: 20px;
+    font-weight: normal;
+    display: inline-block;
+}
+.infoTitle p{
+    display: inline-block;
+    color: #6c6c6c;
+    margin-left: 10px;
+}
+.infoTitle p span{
+    color: #2c2c2c;
+}
+
+.footerInfo dl{
+    overflow: hidden;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.footerInfo dl dt{
+    color: #2c2c2c;
+    float: left;
+    width: 80px;
+    background: url(../images/sub/info_line.png) no-repeat;
+    background-position: right center;
+}
+.footerInfo dl dd{
+    color: #6c6c6c;
+    float: left;
+    margin-left: 5px;
+}
+
+/*right*/
+.footerRight{
+    width: 220px;
+    height: 220px;
+    background: url(../images/sub/bg_pf.jpg) no-repeat;
+    text-align: center;
+    padding: 30px 0;
+    box-sizing: border-box;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+}
+.footerRight a{
+}
+.footerRight h3{
+    width: 100px;
+    margin: 0 auto;
+    padding: 5px 0;
+    color: #626262;
+    font-size: 12px;
+    font-weight: 200;
+    border: 1px solid #3d3d3d;
+}
+.footerRight p{
+    color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/*footerBar*/
+.footerBar{
+    border-top: 1px solid #ddd;
+    margin-top: 60px;
+    text-align: right;
+}
+
+.familySite{
+    width: 130px;
+    font-size: 14px;
+    color: #7e7e7e;
+    background: url(../images/sub/ico_add.png) no-repeat;
+    background-position: right center;
+    height: 42px;
+    line-height: 42px;
+    display: inline-block;
+    text-align: left;
+    margin-right: 42px;
+    cursor: pointer;
+}
+.familySite:hover .siteMenu{
+    display: block;
+}
+
+.topBtn{
+    width: 42px;
+    height: 42px;
+    background: #343235;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+.topBtn a{}
+.topBtn a img{}
+
+.siteMenu{
+    border: 1px solid #444;
+    position: absolute;
+    right: 42px;
+    bottom: 0;
+    display: none;
+}
+.siteMenu ul{}
+.siteMenu ul li{
+    width: 130px;
+    height: 40px;
+    line-height: 40px;
+    background: #fff;
+}
+.siteMenu ul li a{
+    padding-left: 5px;
+    color: #888;
+    display: block;
+}
+.siteMenu ul li a:hover{
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
