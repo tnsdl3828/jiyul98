@@ -1,0 +1,271 @@
+/* The grid: Three equal columns that floats next to each other */
+.mSkillTitle{
+    display: none;
+}
+.mSkill{
+    display: block;
+}
+.mSkill img{
+    display: none;
+}
+/*skill*/
+.skill{
+    height: 600px;
+    margin-bottom: 
+}
+.skill ul{
+    width: 1200px;
+    height: 600px;
+}
+.skill ul li{
+    width: 300px;
+    height: 600px;
+    position: relative;
+    float: left;
+    cursor: pointer;
+}
+.skillBox1Opacity{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 600px;
+    background: #000;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.skillBox2Opacity{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 600px;
+    background: #000;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.skillBox3Opacity{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 600px;
+    background: #000;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.skillBox4Opacity{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 600px;
+    background: #000;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.skill ul li img{
+    transition: all 0.5s;
+}
+.skill ul li.skillBox1{
+    background: url(../images/skills_photoshopBg.png)
+        no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    visibility: hidden;
+}
+.skill ul li.skillBox1.shown{
+    animation: fadeInDown 1s;
+    visibility: visible;
+}
+.skill ul li.skillBox2.shown{
+    animation: fadeInUp 1s;
+    visibility: visible;
+}
+.skill ul li.skillBox3.shown{
+    animation: fadeInDown 1s;
+    visibility: visible;
+}
+.skill ul li.skillBox4.shown{
+    animation: fadeInUp 1s;
+    visibility: visible;
+}
+.skill ul li.skillBox1 img{
+    position: absolute;
+    top: 50%;
+    margin-top: -48px;
+    left: 50%;
+    margin-left: -50px;
+}
+.skill ul li.skillBox2{
+    background: url(../images/skills_illustorBg.png)
+        no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    visibility: hidden;
+}
+.skill ul li.skillBox2 img{
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    left: 50%;
+    margin-left: -50px;
+}
+.skill ul li.skillBox3{
+    background: url(../images/skills_htmlBg.png)
+        no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    visibility: hidden;
+}
+.skill ul li.skillBox3 img{
+    position: absolute;
+    top: 50%;
+    margin-top: -69px;
+    left: 50%;
+    margin-left: -50px;
+}
+.skill ul li.skillBox4{
+    background: url(../images/skills_jqueryBg.png)
+        no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    visibility: hidden;
+}
+.skill ul li.skillBox4 img{
+    position: absolute;
+    top: 50%;
+    margin-top: -52px;
+    left: 50%;
+    margin-left: -50px;
+}
+
+/*skillTextBox*/
+.skillTextBox{
+    color: #fff;
+    width: 250px;
+    position: absolute;
+    left: 50%;
+    margin-left: -125px;
+    top: 50%;
+    margin-top: -49px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.skillTextBox.first{}
+.skillTextBox.second{}
+.skillTextBox.third{}
+.skillTextBox.last{}
+.skillTextBox h2{
+    font-size: 18px;
+}
+.skillTextBox p{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
