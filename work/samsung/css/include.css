@@ -1,0 +1,100 @@
+/*헤더*/
+#header{}
+
+/*헤더탑*/
+.headerTop{
+    position: relative;
+    margin: 15px 0;
+}
+.headerTop h1{
+    width: 140px;
+    height: 24px;
+    background: url(../images/logo.png) no-repeat;
+    background-size: 100%;
+    text-indent: -9999px;
+    margin: 0 auto;
+}
+.headerTop h1 a{    
+    display: block;
+}
+
+/*헤더레프트메뉴*/
+.headerLeftMenu{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.headerLeftMenu ul{}
+.headerLeftMenu ul li{
+    float: left;
+}
+.headerLeftMenu ul li a{}
+
+/*헤더라이트메뉴*/
+.headerRightMenu{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.headerRightMenu ul{}
+.headerRightMenu ul li{
+    float: left;
+}
+.headerRightMenu li:after{
+    content: "";
+    display: block;
+    margin: 0 20px;
+}
+.headerRightMenu ul li a{}
+.headerRightMenu ul li a img{}
+
+/*헤더바텀*/
+.headerBottom{}
+.headerBottom ul{}
+.headerBottom ul li{
+    float: left;
+    margin: 0 79px;
+}
+.headerBottom ul li a{
+    color: #333;
+    font-size: 16px;
+    padding: 10px 0;
+    display: block;
+}
+.headerBottom ul li a:hover{
+    color: blue;
+}
+
+/*푸터*/
+#footer{
+    background: #999;
+    padding: 30px 0;
+    margin-top: 60px;
+}
+
+.footerTitle{}
+.footerTitle ul{}
+.footerTitle ul li{
+    display: inline-block;
+    margin-right: 30px;
+}
+.footerTitle ul li:hover a{
+    text-decoration: underline;
+}
+.footerTitle ul li.on{}
+.footerTitle ul li.on a{
+    color: #0048ff;
+}
+.footerTitle ul li a{
+    color: #fff;
+    font-size: 14px;
+}
+
+.footerInfo{
+    padding-top: 10px;
+}
+.footerInfo ul{}
+.footerInfo ul li{
+    font-size: 10px;
+    color: #fff;
+}

@@ -1,0 +1,455 @@
+/*메인슬라이더*/
+.mainSlider{
+    height: 395px;
+    position: relative;
+    overflow: hidden;
+    background: black;
+}
+.mainSlider .inner{
+    position: relative;
+}
+.mainSlider img{
+    position: absolute;
+    left: 50%;
+    margin-left: -960px;
+}
+
+/*메인슬라이더텍스트*/
+.mainSliderText{
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+.mainSliderText li{
+    color: #fff;
+}
+.mainSliderText li h1{
+    font-size: 60px;
+}
+.mainSliderText li p{
+    font-size: 35px;
+}
+.mainSliderText li span{
+    font-size: 20px;
+}
+
+/*메인슬라이더버튼*/
+.mainSliderBtn{
+    margin-top: 30px;
+}
+.mainSliderBtn ul{}
+.mainSliderBtn ul li{
+    width: 159px;
+    height: 36px;
+    float: left;
+    margin-right: 30px;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 20px;
+}
+.mainSliderBtn ul li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 100;
+    display: block;
+}
+.mainSliderBtn ul li:hover a{
+    color: #333;
+    background: #fff;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/*mainRow1*/
+.mainRow1{
+    padding: 30px 0;
+}
+.mainRow1 h3{
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+}
+.mainRow1 p{
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/*mainRow1레프트박스*/
+.row1LeftBox{
+    float: left;
+}
+.row1LeftBox ul{}
+.row1LeftBox ul li{
+    width: 179px;
+    height: 54px;
+    border: 1px solid #333;
+    text-align: center;
+    line-height: 54px;
+}
+.row1LeftBox ul li:nth-child(1){
+    border-bottom: 0px;
+}
+.row1LeftBox ul li:nth-child(2){
+    border-bottom: 0px;
+}
+.row1LeftBox ul li:nth-child(3){
+    border-bottom: 0px;
+}
+.row1LeftBox ul li:nth-child(4){
+    border-bottom: 0px;
+}
+.row1LeftBox ul li a:hover{
+    background: #333;
+    color: #fff;
+}
+.row1LeftBox ul li a{
+    color: #333;
+    display: block;
+}
+
+/*mainRow1라이트박스*/
+.row1RightBox{
+    float: left;
+    margin-left: 170px;
+}
+.row1RightBox ul{}
+.row1RightBox ul li{
+    width: 166px;
+    height: 154px;
+    float: left;
+    margin-right: 70px;
+    text-align: center;
+}
+.row1RightBox ul li a{
+    display: block;
+}
+.row1RightBox ul li a img{
+}
+.row1RightBox ul li h2{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+.row1RightBox ul li p{
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.bottomBox{}
+.bottomBox li{
+    margin-top: 40px;
+}
+.bottomBox li a{}
+
+/*mainRow2*/
+.mainRow2{}
+.mainRow2 h3{
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+}
+.mainRow2 p{
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+/*mainRow2배경*/
+.mainRow2Bg{
+    background: #ccc;
+    height: 1005px;
+    padding-top: 40px;
+}
+
+/*row2박스1*/
+.row2Box1{
+    margin-left: 30px;
+    margin-top: 60px;
+    float: left;
+}
+.row2Box1 ul{}
+.row2Box1 ul li{}
+.row2Box1 ul li img{
+    float: left;
+}
+.row2Box1 ul li p{
+    float: left;
+    text-align: left;
+    font-size: 20px;
+    color: #333;
+    line-height: 20px;
+    margin-left: 20px;
+    margin-top: 215px;
+}
+.row2Box1 ul li a{}
+
+/*row2박스2*/
+.row2Box2{
+    float: left;
+    margin-left: 120px;
+    margin-top: 90px;
+}
+.row2Box2 ul{}
+.row2Box2 ul li{}
+.row2Box2 ul li img{
+    float: left;
+}
+.row2Box2 ul li p{
+    float: left;
+    text-align: left;
+    font-size: 20px;
+    color: #333;
+    line-height: 20px;
+    margin-left: 20px;
+    margin-top: 120px;
+}
+.row2Box2 ul li a{}
+
+/*row2박스3*/
+.row2Box3{
+    float: right;
+    margin-top: 7px;
+}
+.row2Box3 ul{}
+.row2Box3 ul li{}
+.row2Box3 ul li img{
+}
+.row2Box3 ul li p{
+    text-align: left;
+    font-size: 20px;
+    color: #333;
+    line-height: 20px;
+    margin-top: 20px;
+}
+.row2Box3 ul li a{}
+
+/*mainRow2버튼*/
+.row2Btn{}
+.row2Btn ul{}
+.row2Btn ul li{
+    margin-top: 15px;
+    float: left;
+    width: 120px;
+    height: 35px;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+.row2Btn ul li:hover a{
+    background: #fff;
+    color: #000;
+    width: 120px;
+    height: 35px;
+    border-radius: 50px;
+}
+.row2Btn ul li a{
+    color: #fff;
+    display: block;
+}
+.row2Btn.last{}
+.row2Btn.last ul{}
+.row2Btn.last ul li{
+    margin-left: 0;
+}
+.row2Btn.last ul li a{}
+
+/*mainRow3*/
+.mainRow3{
+    height: 371px;
+    overflow: hidden;
+    position: relative;
+}
+.mainRow3 img{
+    position: absolute;
+    left: 50%;
+    margin-left: -900px;
+}
+.mainRow3 h3{
+    position: absolute;
+    top: 50%;
+    margin-top: -80px;
+    left: 60px;
+    font-size: 40px;
+    font-weight: 500;
+}
+.mainRow3 p{
+    position: absolute;
+    top: 170px;
+    left: 60px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.row3LeftBtn{
+    position: absolute;
+    top: 230px;
+    left: 60px;
+    width: 120px;
+    height: 35px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 50px;
+}
+.row3LeftBtn:hover{
+    background: #000;
+}
+.row3LeftBtn:hover a{
+    color: #fff;
+}
+.row3LeftBtn a{
+    color: #000;
+}
+
+.row3RightBtn{
+    position: absolute;
+    top: 230px;
+    left: 200px;
+    width: 120px;
+    height: 35px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 50px;
+}
+.row3RightBtn:hover{
+    background: #000;
+}
+.row3RightBtn:hover a{
+    color: #fff;
+}
+.row3RightBtn a{
+    color: #000;
+}
+
+
+/*mainRow4*/
+.mainRow4{}
+
+.row4LeftBox{
+    width: 600px;
+    float: left;
+}
+.row4LeftBox h3{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.leftBox{
+    width: 300px;
+    float: left;
+}
+.leftBox li{
+}
+.leftBox li a{
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.rightBox{
+    width: 300px;
+    float: left;
+}
+.rightBox li{}
+.rightBox li a{
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.row4RightBox{
+    width: 600px;
+    float: left;
+}
+.row4RightBox h3{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.snsIcon{}
+.snsIcon li{
+    float: left;
+    margin-right: 15px;
+    height: 50px;
+}
+.snsIcon li a{
+    display: block;
+    height: 100%;
+}
+.snsIcon li a img{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
