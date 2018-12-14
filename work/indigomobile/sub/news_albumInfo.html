@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+<title>Indigo Music sub news_album</title>
+<link rel="stylesheet" href="../font/fonts.css" type="text/css"/>
+<link rel="stylesheet" href="../css/news_albumInfo.css" type="text/css"/>
+<link rel="stylesheet" href="../css/include.css" type="text/css"/>
+<link rel="stylesheet" href="../css/common.css" type="text/css"/>
+<link rel="stylesheet" href="../css/default.css" type="text/css"/>
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="../js/common.js"></script>
+<script>
+function openNav() {
+    document.getElementById("topNav").style.height = "450px";
+    document.getElementById("bgOpacity").style.height = "100%";
+}
+
+function closeNav() {
+    document.getElementById("topNav").style.height = "0";
+    document.getElementById("bgOpacity").style.height = "0";
+    document.getElementById("backIcon").style.height = "0";
+}    
+</script>
+</head>
+    
+<body>
+    <!--전체시작-->
+    <div id="wrap">
+        <!--헤더시작-->
+        <header id="header">
+            <!--헤더탑시작-->
+            <div class="headerTop cf">
+                <!--로고시작-->
+                <h1 class="cf">
+                    <a href="../index.html">
+                        <img src="../images/sub/news_albumInfo/header_logo.png" alt="헤더로고"/>
+                    </a>
+                </h1>
+                <!--로고끝-->
+
+                <!--헤더센터타이틀시작-->
+                <div class="headerCenterTitle">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="../images/sub/news_albumInfo/header_title_news.png" alt="헤더센터타이틀"/>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!--헤더센터타이틀끝-->
+
+                <!--헤더메뉴버튼시작-->
+                <div class="headerMenuBtn cf">
+                    <ul>
+                        <li>
+                            <a href="#" onclick="openNav()">
+                                <img src="../images/sub/news_albumInfo/ico_menu.png" alt="헤더메뉴이미지"/>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!--헤더메뉴버튼끝-->
+            </div>
+            <!--헤더탑끝-->
+            <!--메뉴시작-->
+            <div class="gnb" id="topNav">
+                <div class="gnbWrap">
+                <ul class="menuTop">
+                    <div class="menuLogo">
+                        <a href="../index.html">
+                            <img src="../images/sub/news_albumInfo/header_logo.png" alt="헤더로고이미지"/>
+                        </a>
+                    </div>
+                    <div class="backBtn">
+                        <a href="javascript:void(0)" onclick="closeNav()">
+                            <img src="../images/sub/news_albumInfo/Btn_back.png" alt="뒤로가기버튼"/>
+                        </a>
+                    </div>
+                </ul>
+                <ul class="artistMenu">
+                    <li class="menuTitle">
+                        <a href="artist.html">
+                            ARTIST
+                        </a>
+                    </li>
+                    <li>
+                        <a href="artist.html">
+                            Swings
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Justhis
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Kid milli
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Jvcki wai
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Young B
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            NO&#58;EL
+                        </a>
+                    </li>
+                </ul>
+                <ul class="newsMenu">
+                    <li class="menuTitle">
+                        <a href="news_albumInfo.html">
+                            NEWS
+                        </a>
+                    </li>
+                    <li>
+                        <a href="ne">
+                            Album Info
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Concert Info
+                        </a>
+                    </li>
+                </ul>
+                <ul class="contactMenu">
+                    <li class="menuTitle">
+                        <a href="contact.html">
+                            CONTACT
+                        </a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+            <!--메뉴끝-->
+            
+            
+            <!--헤더바텀시작-->
+            <div class="headerBottom cf">
+                <div class="headerBottomLeft">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                Album
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="headerBottomRight">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                Concert
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--헤더바텀끝-->
+        </header>
+        <!--헤더끝-->
+        <!--배경투명도시작-->
+        <div class="bgOpacity" id="bgOpacity">
+        </div>
+        <!--배경투명도끝-->
+        
+        <!--컨테이너시작-->
+        <div id="container">
+            <!--서브슬라이더시작-->
+            <div class="subSlider">
+                <div class="subSliderImg">
+                    <img src="../images/sub/news_albumInfo/subSlider_news.png" alt="서브슬라이더이미지"/>
+                </div>
+            </div>
+            <!--서브슬라이더끝-->
+            
+            <!--앨범정보시작-->
+            <div class="albumInfo">
+                <h3>
+                    Album info
+                </h3>
+                <ul class="albumImg cf">
+                    <li>
+                        <a href="#">
+                            <img src="../images/sub/news_albumInfo/albumInfo_1.png" alt="앨범정보1"/>
+                        </a>
+                    </li>
+                    <li class="right">
+                        <a href="#">
+                            <img src="../images/sub/news_albumInfo/albumInfo_2.png" alt="앨범정보2"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../images/sub/news_albumInfo/albumInfo_3.png" alt="앨범정보3"/>
+                        </a>
+                    </li>
+                    <li class="right">
+                        <a href="#">
+                            <img src="../images/sub/news_albumInfo/albumInfo_4.png" alt="앨범정보4"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../images/sub/news_albumInfo/albumInfo_5.png" alt="앨범정보5"/>
+                        </a>
+                    </li>
+                    <li class="right">
+                        <a href="#">
+                            <img src="../images/sub/news_albumInfo/albumInfo_6.png" alt="앨범정보6"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../images/sub/news_albumInfo/albumInfo_7.png" alt="앨범정보7"/>
+                        </a>
+                    </li>
+                    <li class="right">
+                        <a href="#">
+                            <img src="../images/sub/news_albumInfo/albumInfo_8.png" alt="앨범정보8"/>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!--앨범정보끝-->
+            
+            <!--페이지관리시작-->
+            <div class="pageNumber">
+                <ul>
+                    <li class="pageLeftBtn">
+                        <a href="#">
+                            <img src="../images/sub/news_albumInfo/Btn_page_left.png" alt="페이지레프트버튼"/>
+                        </a>
+                    </li>
+                    <li class="on">
+                        <a href="#">
+                            1
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            2
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            3
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            4
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            5
+                        </a>
+                    </li>
+                    <li class="pageRightBtn">
+                        <a href="#">
+                            <img src="../images/sub/news_albumInfo/btn_page_right.png" alt="페이지라이트버튼"/>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!--페이지관리끝-->
+        </div>
+        <!--컨테이너끝-->
+        
+        <!--푸터시작-->
+        <footer id="footer">
+            <div class="footerBg cf">
+                <!--푸터로고시작-->
+                <h1>
+                    <a href="../index.html">
+                        <img src="../images/sub/news_albumInfo/footer_logo.png" alt="푸터로고이미지"/>
+                    </a>
+                </h1>
+                <!--푸터로고끝-->
+                
+                <!--푸터정보시작-->
+                <ul class="footerInfo cf">
+                    <li>
+                        <img src="../images/sub/news_albumInfo/%EB%AA%A8%EB%B0%94%EC%9D%BC-%EB%A9%94%EC%9D%B8%ED%99%94%EB%A9%B4_03.png" alt="푸터정보"/>
+                    </li>
+                </ul>
+                <!--푸터정보끝-->
+            </div>
+        </footer>
+        <!--푸터끝-->
+    </div>
+    <!--전체끝-->
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

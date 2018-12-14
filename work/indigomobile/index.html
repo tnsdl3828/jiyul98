@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+<title>Indigo Music</title>
+<link rel="stylesheet" href="css/main.css" type="text/css"/>
+<link rel="stylesheet" href="css/common.css" type="text/css"/>
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="js/common.js"></script>
+<script>
+function openNav() {
+    document.getElementById("topNav").style.height = "450px";
+    document.getElementById("bgOpacity").style.height = "100%";
+}
+
+function closeNav() {
+    document.getElementById("topNav").style.height = "0";
+    document.getElementById("bgOpacity").style.height = "0";
+    document.getElementById("backIcon").style.height = "0";
+}
+</script>
+</head>
+    
+<body>
+    <!--전체시작-->
+    <div id="wrap">
+        <!--헤더시작-->
+        <header id="header">
+            <!--로고시작-->
+            <h1>
+                <a href="index.html">
+                    <img src="images/main/header_logo.png" alt="헤더로고이미지"/>
+                </a>
+            </h1>
+            <!--로고끝-->
+            
+            <!--헤더메뉴버튼시작-->
+            <div class="headerMenuBtn">
+                <ul>
+                    <li>
+                        <a href="#" onclick="openNav()">
+                            <img src="images/main/ico_menu.png" alt="헤더메뉴이미지"/>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!--헤더메뉴버튼끝-->
+            
+            <!--메뉴시작-->
+            <div class="gnb" id="topNav">
+                <div class="gnbWrap">
+                <ul class="menuTop">
+                    <div class="menuLogo">
+                        <a href="index.html">
+                            <img src="images/main/header_logo.png" alt="헤더로고이미지"/>
+                        </a>
+                    </div>
+                    <div class="backBtn">
+                        <a href="javascript:void(0)" onclick="closeNav()">
+                            <img src="images/main/Btn_back.png" alt="뒤로가기버튼"/>
+                        </a>
+                    </div>
+                </ul>
+                <ul class="artistMenu">
+                    <li class="menuTitle">
+                        <a href="sub/artist.html">
+                            ARTIST
+                        </a>
+                    </li>
+                    <li>
+                        <a href="sub/artist.html">
+                            Swings
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Justhis
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Kid milli
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Jvcki wai
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Young B
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            NO&#58;EL
+                        </a>
+                    </li>
+                </ul>
+                <ul class="newsMenu">
+                    <li class="menuTitle">
+                        <a href="sub/news_albumInfo.html">
+                            NEWS
+                        </a>
+                    </li>
+                    <li>
+                        <a href="sub/news_albumInfo.html">
+                            Album Info
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Concert Info
+                        </a>
+                    </li>
+                </ul>
+                <ul class="contactMenu">
+                    <li class="menuTitle">
+                        <a href="sub/contact.html">
+                            CONTACT
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+            <!--메뉴끝-->
+        </header>
+        <!--헤더끝-->
+        
+        <!--배경투명도시작-->
+        <div id="bgOpacity" class="bgOpacity">
+        </div>
+        <!--배경투명도끝-->
+        
+        <!--컨테이너시작-->
+        <div id="container">
+            <!--메인이미지시작-->
+            <div class="mainImg">
+                <ul>
+                    <li class="swings">
+                        <img src="images/main/mainImg_01.png" alt="스윙스이미지"/>
+                    </li>
+                    <li class="justhis">
+                        <img src="images/main/mainImg_02.png" alt="저스디스이미지"/>
+                    </li>
+                    <li class="kidMilli">
+                        <img src="images/main/mainImg_03.png" alt="키드밀리이미지"/>
+                    </li>
+                    <li class="jvckiWai">
+                        <img src="images/main/mainImg_04.png" alt="제키와이이미지"/>
+                    </li>
+                    <li class="youngB">
+                        <img src="images/main/mainImg_05.png" alt="양홍원이미지"/>
+                    </li>
+                    <li class="noel">
+                        <img src="images/main/mainImg_06.png" alt="노엘이미지"/>
+                    </li>
+                </ul>
+            </div>
+            <!--메인이미지끝-->
+        </div>
+        <!--컨테이너끝-->
+        
+        <!--푸터시작-->
+        <footer id="footer">
+            <div class="footerBg cf">
+                <!--푸터로고시작-->
+                <h1>
+                    <a href="index.html">
+                        <img src="images/main/footer_logo.png" alt="푸터로고이미지"/>
+                    </a>
+                </h1>
+                <!--푸터로고끝-->
+                
+                <!--푸터정보시작-->
+                <ul class="footerInfo cf">
+                    <li>
+                        <img src="images/main/footerInfo.png" alt="푸터정보"/>
+                    </li>
+                </ul>
+                <!--푸터정보끝-->
+            </div>
+        </footer>
+        <!--푸터끝-->
+    </div>
+    <!--전체끝-->
+</body>
+</html>
