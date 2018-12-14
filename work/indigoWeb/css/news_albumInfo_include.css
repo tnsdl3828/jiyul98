@@ -1,0 +1,195 @@
+/*헤더*/
+#header{}
+
+/*헤더탑*/
+.headerTop{
+    position: relative;
+}
+.headerTop h1{
+    position: absolute;
+    top: 50%;
+    margin-top: -36px;
+    left: 50px;
+}
+.headerTop h1 a{
+    display: block;
+}
+.headerTop h1 a img{
+    display: block;
+}
+
+/*gnb*/
+.gnb{
+    float: right;
+    font-size: 0;
+    margin-right: 50px;
+}
+.gnb ul{}
+.gnb ul li{
+    display: inline-block;
+    width: 200px;
+    height: 106px;
+    line-height: 106px;
+    text-align: center;
+}
+.gnb ul li.on{
+    background: #0c0739;
+}
+.gnb ul li.on a{
+    color: #fff;
+}
+.gnb ul li a{
+    color: #333;
+    font-size: 35px;
+    font-weight: bold;
+    display: block;
+}
+
+/*헤더바텀*/
+.headerBottomBg{
+    width: 100%;
+    background: #f7f7f7;
+}
+.headerBottom{
+}
+.headerBottom ul{
+    font-size: 0;
+}
+.headerBottom ul li{
+    display: inline-block;
+    width: 600px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 15px;
+    text-align: center;
+}
+.headerBottom ul li.on .circle{
+    width: 10px;
+    height: 10px;
+    background: #000;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 50px;
+    margin-right: 10px;
+}
+.headerBottom ul li a{
+    color: #333;
+    font-size: 20px;
+    font-weight: 500;
+    display: block;
+}
+
+/*푸터*/
+#footer .inner{
+    width: 1000px;
+    position: relative;
+}
+
+.footerInfo{
+    padding: 30px 0;
+}
+.footerInfo a{
+    float: left;
+    display: block;
+    height: 41px;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+}
+.footerInfo a img{
+    
+}
+.footerInfo dl{
+    float: right;
+    font-size: 18px;
+}
+.footerInfo dl dt{}
+.footerInfo dl dd{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

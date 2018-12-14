@@ -1,0 +1,55 @@
+/*서브슬라이더*/
+.subSlider{
+    width: 100%;
+    height: 829px;
+    background: #0c0739;
+    position: relative;
+}
+.subSlider img{
+    position: absolute;
+    left: 50%;
+    margin-left: -414px;
+    top: 50%;
+    margin-top: -414px;
+}
+
+/*앨범정보*/
+.albumInfo{
+}
+.albumInfo h3{
+    margin-top: 80px;
+    font-size: 40px;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+}
+.albumInfo h3:after{
+    content: "";
+    display: block;
+    width: 2px;
+    height: 60px;
+    background: #000;
+    margin: 30px auto;
+}
+
+.albumImg{}
+.albumImg ul{}
+.albumImg ul li{
+    float: left;
+    position: relative;
+}
+.albumImg ul li:hover .on{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.albumImg ul li a{
+    display: block;
+}
+.albumImg ul li a img{
+    display: block;
+}
+.albumImg ul li a img.on{
+    display: none;
+}

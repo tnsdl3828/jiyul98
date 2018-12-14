@@ -1,0 +1,253 @@
+/*메인슬라이더*/
+.mainSlider{
+    overflow: hidden;
+}
+.mainSliderImg{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background: #0c0739;
+}
+.mainSliderImg img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -282px;
+    margin-left: -500px;
+}
+
+.mainSliderImg2{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background: #0c0739;
+}
+.mainSliderImg2 img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -415px;
+    margin-left: -415px;
+}
+
+.slick-dots{
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
+.slick-dots li{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background: #ddd;
+    border-radius: 50%;
+    margin: 0 3px;
+    cursor: pointer;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+}
+
+.slick-dots button{
+    padding: 0;
+    border: 0;
+    font-size: 0;
+}
+
+.slick-dots li.slick-active{
+    background: red;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+}
+.prevBtn,.nextBtn{
+    cursor: pointer;
+    width: 30px;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    margin-top: -28px;
+    z-index: 1;
+}
+.prevBtn{
+    left: 40px; 
+}
+.nextBtn{
+    right: 40px;
+}
+
+/*앨범정보*/
+.albumInfo{
+    width: 100%;
+    background: #efefef;
+    padding: 40px 0;
+}
+.albumInfo .inner{
+    width: 1000px;
+    margin: 0 auto;
+}
+.albumInfo h4{
+    text-align: left;
+    color: #333;
+    font-size: 25px;
+    font-weight: bold;
+    float: left;
+    display: block;
+}
+
+.moreBtn{
+    float: right;
+    height: 33px;
+    line-height: 33px;
+    position: relative;
+}
+.moreBtn a{
+    display: block;
+}
+.moreBtn a p{
+    float: left;
+    font-size: 15px;
+    font-weight: 600;
+    padding-right: 10px;
+    color: #333;
+}
+.moreBtn a img{
+    float: left;
+    position: absolute;
+    top: 50%;
+    margin-top: -4.5px;
+}
+
+/*앨범이미지*/
+.albumImg{
+    margin-top: 10px;
+}
+
+/*앨범이미지탑*/
+.albumInfoTop{}
+.albumInfoTop li{
+    float: left;
+    margin-right: 125px;
+}
+.albumInfoTop li.last{
+    margin: 0;
+}
+.albumInfoTop li a{}
+.albumInfoTop li a img{}
+.albumInfoTop li a p{
+    text-align: center;
+    color: #333;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+/*앨범이미지바텀*/
+.albumInfoBottom{
+    margin-top: 20px;
+}
+.albumInfoBottom li{
+    float: left;
+    margin-right: 124px;
+}
+.albumInfoBottom li.last{
+    margin: 0;
+}
+.albumInfoBottom li a{}
+.albumInfoBottom li a img{}
+.albumInfoBottom li a p{
+    text-align: center;
+    color: #333;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+
+/*콘서트*/
+.concertInfo{
+    width: 100%;
+    padding: 40px 0;
+}
+.concertInfo .inner{
+    width: 1000px;
+    margin: 0 auto;
+}
+.concertInfo h4{
+    text-align: left;
+    color: #333;
+    font-size: 25px;
+    font-weight: bold;
+    float: left;
+    display: block;
+}
+
+/*콘서이미지*/
+.concertImg{
+    margin-top: 10px;
+}
+
+/*콘서트이미지탑*/
+.concertInfoTop{}
+.concertInfoTop li{
+    float: left;
+    margin-right: 125px;
+}
+.concertInfoTop li.last{
+    margin: 0;
+}
+.concertInfoTop li a{}
+.concertInfoTop li a img{}
+.concertInfoTop li a p{
+    text-align: center;
+    color: #333;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+/*앨범이미지바텀*/
+.concertInfoBottom{
+    margin-top: 20px;
+}
+.concertInfoBottom li{
+    float: left;
+    margin-right: 124px;
+}
+.concertInfoBottom li.last{
+    margin: 0;
+}
+.concertInfoBottom li a{}
+.concertInfoBottom li a img{}
+.concertInfoBottom li a p{
+    text-align: center;
+    color: #333;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

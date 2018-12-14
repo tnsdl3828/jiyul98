@@ -1,0 +1,135 @@
+/*작성정보*/
+.textInfo{}
+.textInfo ul{}
+.textInfo ul li{
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 5px;
+}
+.textInfo ul li.first{
+    margin: 0;
+}
+.textInfo ul li.on{
+    margin-left: 20px;
+}
+.textInfo ul li.on p{
+    font-weight: bold;
+}
+.textInfo ul li p{
+    color: #000;
+}
+
+/*게시물이미지*/
+.subImg{
+    padding-top: 60px;
+}
+.subImg img{
+    display: block;
+}
+
+.textTitleInfo{}
+.textTitleInfo ul{}
+.textTitleInfo ul li{}
+.textTitleInfo ul li.title{
+    margin: 20px 0;
+}
+.textTitleInfo ul li.title p{}
+.textTitleInfo ul li.subTitle{
+    margin-bottom: 10px;
+}
+.textTitleInfo ul li.subTitle p{}
+.textTitleInfo ul li p{
+    color: #000;
+}
+
+/*믹스정보*/
+.mixInfo{
+    padding-top: 20px;
+}
+.mixInfo ul{}
+.mixInfo ul li{}
+.mixInfo ul li p{
+    color: #000;
+}
+
+/*뮤비정보*/
+.mvInfo{
+    padding-top: 20px;
+}
+
+.mvTop{}
+.mvTop li{
+    display: inline-block;
+}
+.mvTop li img{}
+.mvTop li p{}
+.mvTop li p a{
+    color: #000;
+    position: relative;
+}
+.mvTop li p a:after{
+    content: "";
+    display: block;
+    width: 223.39px;
+    height: 1px;
+    background: #000;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.mvBottom{}
+.mvBottom li{
+    display: inline-block;
+}
+.mvBottom li img{}
+.mvBottom li p{}
+.mvBottom li p a{
+    color: #000;
+    position: relative;
+}
+.mvBottom li p a:after{
+    content: "";
+    display: block;
+    width: 176.75px;
+    height: 1px;
+    background: #000;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/*다음버튼*/
+.textInfoBtn{}
+.textInfoBtn ul{}
+.textInfoBtn ul li{
+    width: 80px;
+    height: 30px;
+    border: 2px solid #abacad;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+    background: #f6f6f6;
+    margin-top: 40px;
+}
+.textInfoBtn ul li.last{
+    margin-left: 550px;
+}
+.textInfoBtn ul li a{
+    color: #000;
+    font-weight: bold;
+    display: block;
+    height: 100%;
+    line-height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
