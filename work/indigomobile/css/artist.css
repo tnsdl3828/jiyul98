@@ -1,0 +1,189 @@
+
+/*헤더바텀시작*/
+.headerBottom{
+    padding: 2px 0;
+    font-size: 0;
+    text-align: center;
+}
+.headerBottom ul{}
+.headerBottom ul li{
+    display: inline-block;
+    vertical-align: middle;
+}
+.headerBottom ul li a{
+    height: auto;
+    display: block;
+    text-align: center;
+}
+.headerBottom ul li a p{
+    font-size: 20px;
+    display: block;
+    color: #333;
+    font-weight: 500;
+}
+.headerBottom ul li a img{}
+
+.headerBottom ul li.leftBtn{
+    margin-right: 20px;
+}
+.headerBottom ul li.leftBtn a{}
+.headerBottom ul li.leftBtn a img{}
+
+.headerBottom ul li.rightBtn{
+    margin-left: 20px;
+}
+.headerBottom ul li.rightBtn a{}
+.headerBottom ul li.rightBtn a img{}
+
+
+
+/*서브슬라이더시작*/
+.subSlider{
+    width: 100%;
+    height: 291px;
+    overflow: hidden;
+    position: relative;
+}
+.subSlider img.swings{
+    width: 100%;
+    height: 100%;
+    border-top: 2px solid #0c0739;
+}
+.subSlider2{
+    width: 100%;
+    height: 291px;
+    overflow: hidden;
+    position: relative;
+}
+.subSlider2 img.swings{
+    width: 100%;
+    height: 100%;
+    border-top: 2px solid #0c0739;
+}
+.slick-dots{
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
+.slick-dots li{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background: #ddd;
+    border-radius: 50%;
+    margin: 0 3px;
+    cursor: pointer;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+}
+
+.slick-dots button{
+    padding: 0;
+    border: 0;
+    font-size: 0;
+}
+
+.slick-dots li.slick-active{
+    background: red;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+}
+.prevBtn,.nextBtn{
+    cursor: pointer;
+    width: 30px;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    z-index: 1;
+}
+.prevBtn{
+    left: 20px; 
+}
+.nextBtn{
+    right: 20px;
+}
+
+
+/*SNS메뉴*/
+.snsMenu{
+    text-align: center;
+    padding: 10px 0;
+}
+.snsMenu ul{}
+.snsMenu ul li{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin: 0 5px;
+}
+.snsMenu ul li a{
+    height: 100%;
+    display: block;
+}
+.snsMenu ul li a img{
+    width: 100%;
+}
+
+/*래퍼정보*/
+.rapperInfo{
+    font-size: 0;
+    text-align: center;
+    padding: 15px 0;
+}
+.rapperInfo ul{}
+.rapperInfo ul li{}
+.rapperInfo ul li h3{
+    font-size: 16px;
+    font-weight: bold;
+}
+.rapperInfo ul li p{
+    font-size: 10px;
+}
+
+/*앨범정보*/
+.album{
+    margin-top: 20px;
+    text-align: center;
+}
+.album h3{
+    font-size: 16px;
+    font-weight: bold
+}
+
+.albumInfo{
+    margin-top: 5px;
+}
+.albumInfo li{
+    width: calc(100% - 20px);
+    margin: 10px auto;
+}
+.albumInfo li img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

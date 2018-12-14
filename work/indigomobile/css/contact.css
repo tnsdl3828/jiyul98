@@ -1,0 +1,107 @@
+
+/*서브슬라이더*/
+.subSlider{
+    width: 100%;
+    padding: 15px 0;
+    background: #0c0739;
+}
+.subSlider div.subSliderImg{
+    width: 70%;
+    margin: 0 auto;
+}
+.subSlider div.subSliderImg img{
+    width: 100%;
+}
+
+/*주소*/
+.adress{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.adress ul{}
+.adress ul li{}
+.adress ul li p{
+    color: #0c0739;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.adress ul li.adressIcon{
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+}
+.adress ul li.adressIcon img{
+    width: 100%;
+}
+
+/*이메일*/
+.eMail{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.eMail ul{}
+.eMail ul li{}
+.eMail ul li p{
+    color: #0c0739;
+    font-size: 15px;
+    font-weight: 500;
+}
+.eMail ul li.eMailIcon{
+    width: 30px;
+    height: 22px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.eMail ul li.eMailIcon img{
+    width: 100%;
+}
+
+
+/*전화*/
+.callNumber{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.callNumber ul{}
+.callNumber ul li{}
+.callNumber ul li p{
+    color: #0c0739;
+    font-size: 15px;
+    font-weight: 500;
+}
+.callNumber ul li.callNumberIcon{
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.callNumber ul li.callNumberIcon img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
