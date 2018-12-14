@@ -1,0 +1,295 @@
+/*mainRow1*/
+.mainRow1{}
+
+.row1LeftBox{
+    width: calc(50% - 15px);
+    float: left;
+    background: #f7f7f7;
+    margin-right: 5px;
+    margin-left: 10px;
+    padding: 30px 0;
+}
+.row1LeftBox ul{}
+.row1LeftBox ul li.first{
+    width: 100px;
+    height: 90.28px;
+    margin: 0 auto;
+}
+.row1LeftBox ul li.first img{
+    width: 100%;
+}
+.row1LeftBox ul li.center{
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    margin: 50px auto;
+    line-height: 30px;
+    background: #d199c5;
+    border-radius: 50px;
+}
+.row1LeftBox ul li.center a{
+    color: #fff;
+    font-size: 15px;
+    display: block;
+    height: 100%;
+}
+.row1LeftBox ul li.last{
+}
+.row1LeftBox ul li.last p{
+    text-align: center;
+    font-size: 12px;
+}
+
+.row1RightBox{
+    width: calc(50% - 15px);
+    float: left;
+    background: #f7f7f7;
+    margin-left: 5px;
+    margin-right: 10px;
+    padding: 30px 0;
+}
+.row1RightBox ul{}
+.row1RightBox ul li.first{
+    width: 100px;
+    height: 90.28px;
+    margin: 0 auto;
+}
+.row1RightBox ul li.first img{
+    width: 100%;
+}
+.row1RightBox ul li.center{
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    margin: 50px auto;
+    line-height: 30px;
+    background: #d199c5;
+    border-radius: 50px;
+}
+.row1RightBox ul li.center a{
+    color: #fff;
+    display: block;
+    font-size: 15px;
+    height: 100%;
+}
+.row1RightBox ul li.last{}
+.row1RightBox ul li.last p{
+    text-align: center;
+    font-size: 12px;
+}
+
+/*mainRow2*/
+.mainRow2{
+    margin: 30px 0;
+}
+.mainRow2 ul{
+    text-align: center;
+}
+.mainRow2 ul li{
+    width: 80px;
+    display: inline-block;
+    margin: 0 10px;
+}
+.mainRow2 ul li.last{}
+.mainRow2 ul li a{
+    height: 100%;
+    display: block;
+}
+.mainRow2 ul li a img{
+    width: 100%;
+}
+.mainRow2 ul li a p{
+    font-size: 12px;
+    color: #000;
+}
+
+/*mainRow3*/
+.mainRow3{
+    padding-top: 80px;
+    text-align: center;
+    width: 100%;
+}
+.mainRow3 h3{
+    font-size: 30px;
+    font-weight: 500;
+}
+.mainRow3 p{
+    font-size: 14px;
+    margin-top: 20px;
+}
+.mainRow3 p.last{
+    margin-top: 10px;
+    color: #667d9a;
+}
+.mainRow3 p.last:after{
+    content: "";
+    width: 30px;
+    height: 1px;
+    background: #000;
+    display: block;
+    margin: 30px auto;
+}
+.mainRow3 img{
+    margin-top: 30px;
+    width: 100%;
+}
+
+/*mainRow4*/
+.mainRow4{
+    text-align: center;
+}
+.mainRow4 h3{
+    font-size: 30px;
+    font-weight: 500;
+}
+.mainRow4 p{
+    font-size: 14px;
+    margin-top: 20px;
+}
+.mainRow4 p:after{
+    content: "";
+    width: 30px;
+    height: 1px;
+    background: #000;
+    display: block;
+    margin: 30px auto;
+}
+.mainRow4 .row4Img{
+    width: calc(100% - 10px);
+    height: 233.33px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.row4Img img{
+    width: 100%;
+    display: block;
+}
+
+.row4PageBtn{
+    position: absolute;
+    top: 0;
+}
+.row4PageBtn ul.leftBtn{
+    float: left;
+}
+.row4PageBtn ul.leftBtn li{
+    width: 30px;
+    height: 30px;
+}
+.row4PageBtn ul.leftBtn li a{
+    height: 100%;
+    display: block;
+}
+.row4PageBtn ul.leftBtn li a img{
+    width: 100%;
+}
+
+.row4PageBtn ul.rightBtn{
+    float: left;
+    margin-left: 2px;
+}
+.row4PageBtn ul.rightBtn li{
+    width: 30px;
+    height: 30px;
+}
+.row4PageBtn ul.rightBtn li a{
+    height: 100%;
+    display: block;
+}
+.row4PageBtn ul.rightBtn li a img{
+    width: 100%;
+}
+
+.row4TextBox{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    padding: 20px;
+    background: rgba(255,255,255,0.4);
+}
+.row4TextBox dl{
+    text-align: left;
+    font-size: 0;
+}
+.row4TextBox dl dt{
+    font-size: 15px;
+    font-weight: bold;
+}
+.row4TextBox dl dd{
+    font-size: 13px;
+    margin-top: 10px;
+}
+.enterIcon{
+    width: 30px;
+    height: 6px;
+    margin-top: 7px;
+}
+.enterIcon a{
+    display: block;
+    height: 100%;
+}
+.enterIcon a img{
+    width: 100%;
+    display: block;
+}
+
+.pageBtn{
+    position: absolute;
+    bottom: 7px;
+    left: 50%;
+    margin-left: -28px;
+}
+.pageBtn ul{
+    font-size: 0;
+}
+.pageBtn ul li{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin: 0 2px;
+}
+.pageBtn ul li a{
+    display: block;
+}
+.pageBtn ul li a img{
+    display: block;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

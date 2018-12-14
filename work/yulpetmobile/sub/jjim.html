@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+<title>율펫 찜화면</title>
+<link rel="stylesheet" type="text/css"/ href="../css/jjim.css">
+<link rel="stylesheet" type="text/css"/ href="../css/include.css">
+<link rel="stylesheet" type="text/css"/ href="../css/common.css">
+<link rel="stylesheet" type="text/css"/ href="../css/default.css">
+<link rel="stylesheet" type="text/css"/ href="../font/fonts.css">
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="../js/common.js"></script>
+<script>
+function openNav() {
+    document.getElementById("slideNav").style.width = "250px";
+    document.getElementById("bgOpacity").style.width = "100%";
+    document.getElementById("backIcon").style.left = "270px";
+}
+
+function closeNav() {
+    document.getElementById("slideNav").style.width = "0";
+    document.getElementById("bgOpacity").style.width = "0%";
+    document.getElementById("backIcon").style.left = "0";
+}
+function openLogin() {
+    document.getElementById("login").style.width = "340px";
+    document.getElementById("slideNav").style.width = "0";
+    document.getElementById("bgOpacity2").style.width = "100%";
+    document.getElementById("bgOpacity").style.width = "0";
+}
+function closeLogin() {
+    document.getElementById("login").style.width = "0";
+    document.getElementById("bgOpacity2").style.width = "0%";
+}
+</script>
+</head>
+
+<body>
+    <!--전체시작-->
+    <div id="wrap">
+        <!--헤더시작-->
+        <header id="header" class="cf">
+            <!--패널시작-->
+            <div class="pannel">
+                <a href="#" onclick="openNav()">
+                    <img src="../images/sub/jjim/iconMenu.png" alt="메뉴아이콘"/>
+                </a>
+            </div>
+            <!--패널끝-->
+            
+            <!--로고시작-->
+            <h1>
+                <a href="../index.html">
+                    <img src="../images/sub/jjim/logo.png" alt="로고이미지"/>
+                </a>
+            </h1>
+            <!--로고끝-->
+            
+            <!--검색아이콘시작-->
+            <div class="searchIcon">
+                <a href="search.html">
+                    <img src="../images/sub/jjim/iconSearch.png" alt="검색아이콘"/>
+                </a>
+            </div>
+            <!--검색아이콘끝-->
+            
+            <!--gnb시작-->
+            <div class="gnb" id="slideNav">
+                <div class="gnbWrap">
+                <ul class="gnbTop cf">
+                    <li>
+                        <a href="#">
+                            <img src="../images/sub/jjim/menuiconMypage.png" alt="메뉴마이페이지아이콘"/>
+                        </a>
+                    </li>
+                    <li class="text">
+                        <a href="#" onclick="openLogin()">
+                            로그인
+                        </a>
+                    </li>
+                    <li class="setup">
+                        <a href="#">
+                            <img src="../images/sub/jjim/menuiconSetup.png" alt="설정아이콘"/>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="gnbMiddle">
+                    <li>
+                        <a href="#">
+                            최근 본 PET
+                        </a>
+                    </li>
+                    <li class="last">
+                        <a href="jjim.html">
+                            찜<span>&hearts;</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="gnbBottom">
+                    <li>
+                        <a href="#">
+                            DOG
+                        </a>
+                    </li>
+                    <li>
+                        <a href="cat.html">
+                            CAT
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            BEST
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            SHOW TYPE
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            PET TYPE
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            분양후기
+                        </a>
+                    </li>
+                    <li>
+                        <a href="event.html">
+                            이벤트
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            FAQ
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            공지사항
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            사이트맵
+                        </a>
+                    </li>
+                    <li class="last">
+                        <a href="sale.html">
+                            고객센터
+                        </a>
+                    </li>
+                </ul>
+                <div class="gnbLogo">
+                    <a href="../index.html">
+                        <img src="../images/sub/jjim/menulogo.png" alt="메뉴로고"/>
+                    </a>
+                </div>
+                </div>
+            </div>
+            <!--gnb끝-->
+        </header>
+        <!--헤더끝-->
+        
+        <!--배경오퍼시티시작-->
+        <div id="bgOpacity" class="bgOpacity">
+            <div class="backIcon" id="backIcon">
+                <a href="javascript:void(0)" onclick="closeNav()">
+                    <img src="../images/sub/jjim/menuiconBack.png" alt="뒤로가기아이콘"/>
+                </a>
+            </div>
+        </div>
+        <!--배경오퍼시티끝-->
+        
+        <!--배경오퍼시티시작2-->
+        <div id="bgOpacity2" class="bgOpacity2">
+            <a href="#" onclick="closeLogin()">
+            </a>
+        </div>
+        <!--배경오퍼시티2끝-->
+        
+        <!--로그인시작-->
+        <div class="login" id="login">
+            <div class="loginLogo">
+                <a href="../index.html">
+                    <img src="../images/sub/jjim/login_logo.png" alt="로그인로고"/>
+                </a>
+            </div>
+            <div class="id cf">
+                <ul>
+                    <li class="icon">
+                        <img src="../images/sub/jjim/login_idIcon.png" alt="아이디아이콘"/>
+                    </li>
+                    <li>
+                        <input type="text" maxlength="10" placeholder="ID">
+                    </li>
+                </ul>
+            </div>
+            <div class="password cf">
+                <ul>
+                    <li class="icon">
+                        <img src="../images/sub/jjim/login_passwordIcon.png" alt="비밀번호아이콘"/>
+                    </li>
+                    <li>
+                        <input type="password" maxlength="10" placeholder="PASSWORD">
+                    </li>
+                </ul>
+            </div>
+            <div class="loginBtn">
+                <a href="#">
+                    LOGIN
+                </a>
+            </div>
+            <div class="facebookBtn">
+                <a href="http://www.facebook.com">
+                    FACEBOOK
+                </a>
+            </div>
+            <div class="forgot">
+                <ul>
+                    <li>
+                        <a href="#">
+                            FORGOT ID
+                        </a>
+                    </li>
+                    <li>
+                        &#47;
+                    </li>
+                    <li>
+                        <a href="#">
+                            PASSWORD
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="joinBtn">
+                <a href="#">
+                    회원가입
+                </a>
+            </div>
+        </div>
+        <!--로그인끝-->
+        
+        <!--컨테이너시작-->
+        <div id="container">
+            <!--mainRow1시작-->
+            <div class="mainRow1 cf">
+                <div class="row1Box1">
+                    <a href="#">
+                        <h3>
+                            20
+                        </h3>
+                        <p>
+                            최근 본 동물
+                        </p>
+                    </a>
+                </div>
+                <div class="row1Box2">
+                    <a href="#">
+                        <h3>
+                            2
+                        </h3>
+                        <p>
+                            찜한 강아지
+                        </p>
+                    </a>
+                </div>
+                <div class="row1Box3">
+                    <a href="#">
+                        <h3>
+                            3
+                        </h3>
+                        <p>
+                            찜한 고양이
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <!--mainRow1끝-->
+            
+            <!--mainRow2시작-->
+            <div class="mainRow2">
+                <!--로우2탑시작-->
+                <div class="row2Top cf">
+                    <ul>
+                        <li class="catImg">
+                            <a href="#">
+                                <img src="../images/sub/jjim/subImage1.png" alt="고양이이미지1"/>
+                            </a>
+                        </li>
+                        <li class="center cf">
+                            <a href="petInfo.html">
+                                <p>노르웨이 숲&#95;브린</p>
+                            </a>
+                            <div class="bestBtn">
+                                <ul>
+                                    <li>
+                                        BEST
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="heartBtn">
+                                <ul>
+                                    <li class="img">
+                                        <a href="#">
+                                            <img src="../images/sub/jjim/iconHeart.png" alt="찜아이콘"/>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            &#43;356
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="last">
+                            <a href="#">
+                                <img src="../images/sub/jjim/iconBack.png" alt="뒤로가기아이콘"/>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!--로우2탑끝-->
+                
+                <!--로우2센터시작-->
+                <div class="row2Center cf">
+                    <ul>
+                        <li class="catImg">
+                            <a href="#">
+                                <img src="../images/sub/jjim/subImage2.png" alt="고양이이미지2"/>
+                            </a>
+                        </li>
+                        <li class="center cf">
+                            <a href="#">
+                                <p>스코티쉬 폴드&#95;누키</p>
+                            </a>
+                            <div class="bestBtn">
+                                <ul>
+                                    <li>
+                                        BEST
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="heartBtn">
+                                <ul>
+                                    <li class="img">
+                                        <a href="#">
+                                            <img src="../images/sub/jjim/iconHeart.png" alt="찜아이콘"/>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            &#43;212
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="last">
+                            <a href="#">
+                                <img src="../images/sub/jjim/iconBack.png" alt="뒤로가기아이콘"/>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!--로우2센터끝-->
+                
+                <!--로우2바텀시작-->
+                <div class="row2Center cf">
+                    <ul>
+                        <li class="catImg">
+                            <a href="#">
+                                <img src="../images/sub/jjim/subImage3.png" alt="고양이이미지3"/>
+                            </a>
+                        </li>
+                        <li class="center cf">
+                            <a href="#">
+                                <p>스코티쉬 폴드&#95;스노잉</p>
+                            </a>
+                            <div class="bestBtn">
+                                <ul>
+                                    <li>
+                                        BEST
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="heartBtn">
+                                <ul>
+                                    <li class="img">
+                                        <a href="#">
+                                            <img src="../images/sub/jjim/iconHeart.png" alt="찜아이콘"/>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            &#43;972
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="last">
+                            <a href="#">
+                                <img src="../images/sub/jjim/iconBack.png" alt="뒤로가기아이콘"/>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!--로우2바텀끝-->
+            </div>
+            <!--mainRow2끝-->
+            
+            <!--페이지버튼시작-->
+            <div class="pageBtn">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="../images/sub/jjim/left.png" alt="왼쪽버튼"/>
+                        </a>
+                    </li>
+                    <li class="pageCenter">
+                        1
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../images/sub/jjim/right.png" alt="오른쪽버튼"/>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!--페이지버튼끝-->
+            
+            <!--컨테이너이미지시작-->
+            <div class="containerImg">
+                <ul>
+                    <li>
+                        <img src="../images/sub/jjim/container_img.png" alt="컨테이너이미지"/>
+                    </li>
+                </ul>
+            </div>
+            <!--컨테이너이미지끝-->
+        </div>
+        <!--컨테이너끝-->
+        
+        <!--푸터시작-->
+        <footer id="footer">
+            <div class="footerTop cf">
+                <ul class="footerLeftBox">
+                    <li>
+                        <h3>
+                            <a href="../index.html">
+                                <img src="../images/sub/jjim/footerLogo.png" alt="푸터로고"/>
+                            </a>
+                        </h3>
+                        <p>
+                            &#40;주&#41;지율 펫 &#124; 대표이사&#58;김지율<br/>
+                            사업자번호&#58;123456789<br/>
+                            부산광역시 부산진구 신천대로50번길 79
+                        </p>
+                    </li>
+                </ul>
+                <ul class="footerSns cf">
+                    <h3>
+                        SNS
+                    </h3>
+                    <li>
+                        <a href="http://www.facebook.com/">
+                            <img src="../images/sub/jjim/footerFacebook.png" alt="페이스북아이콘"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.instagram.com/">
+                            <img src="../images/sub/jjim/footerInstagram.png" alt="인스타그램아이콘"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://blog.naver.com/">
+                            <img src="../images/sub/jjim/footerNaverbolg.png" alt="네이버블로그아이콘"/>
+                        </a>
+                    </li>
+                    <li class="last">
+                        <a href="https://www.kakaocorp.com/">
+                            <img src="../images/sub/jjim/footerKakaotalk.png" alt="카카오톡아이콘"/>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footerBottom">
+                <div class="pcBtn">
+                    <a href="#">
+                        PC버전
+                    </a>
+                </div>
+                <div class="footerUtill">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                이용 약관
+                            </a>
+                        </li>
+                        <li class="on">
+                            <a href="#">
+                                개인정보처리방침
+                            </a>
+                        </li>
+                        <li class="last">
+                            <a href="#">
+                                지율펫 고객센터
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <!--푸터끝-->
+    </div>
+    <!--전체끝-->
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

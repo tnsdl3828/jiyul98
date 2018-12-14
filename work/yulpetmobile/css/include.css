@@ -1,0 +1,519 @@
+/*헤더*/
+#header{
+    position: relative;
+    padding: 20px;
+}
+
+/*패널*/
+.pannel{
+    float: left;
+    height: 29px;
+}
+.pannel a{
+    display: block;
+    height: 100%;
+}
+.pannel a img{}
+
+/*로고*/
+#header h1{
+    float: left;
+    width: 150px;
+    height: 40.63px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -20.3px;
+    margin-left: -75px;
+}
+#header h1 a{
+    height: 100%;
+    display: block;
+}
+#header h1 a img{
+    width: 100%;
+}
+
+/*검색아이콘*/
+.searchIcon{
+    width: 31px;
+    height: 31px;
+    float: right;
+}
+.searchIcon a{
+    display: block;
+}
+.searchIcon a img{
+    width: 100%;
+}
+
+/*gnb시작*/
+.gnb{
+    width: 0;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #d6d6d6;
+    z-index: 10;
+    box-sizing: border-box;
+    overflow-x:hidden;
+    transition: 0.5s;
+}
+.gnbWrap{
+    width:250px;
+    padding:25px;
+    box-sizing:border-box;
+}
+.gnbTop{}
+.gnbTop li{
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+.gnbTop li a{
+    display: block;
+    height: 100%;
+    color: #fff;
+    font-size: 20px;
+    line-height: 60px;
+}
+.gnbTop li.text{
+    margin-left: 20px;
+}
+.gnbTop li.text a{
+}
+.gnbTop li a img{
+    width: 100%;
+    display: block;
+}
+.gnbTop li.setup{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 25px;
+    top: 40px;
+}
+.gnbTop li.setup a{
+    display: block;
+    height: 100%;
+}
+.gnbTop li.setup a img{
+    width: 100%;
+    display: block;
+}
+.backIcon{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    transition: all 0.5s;
+}
+.backIcon a{
+    height: 100%;
+    display: block;
+}
+.backIcon a img{
+    width: 100%;
+    display: block;
+}
+
+.gnbMiddle{
+    font-size: 0
+}
+.gnbMiddle li{
+    margin-top: 20px;
+    background: #fff;
+    display: inline-block;
+    width: calc(50% - 2px);
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+.gnbMiddle li a{
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+}
+.gnbMiddle li.last{
+    margin-left: 4px;
+}
+.gnbMiddle li.last a{}
+.gnbMiddle li.last a span{
+    color: red;
+}
+
+.gnbBottom{
+    background: #fff;
+    margin-top: 4px;
+    text-align: left;
+    height: 65%;
+    overflow: auto;
+}
+.gnbBottom li{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
+.gnbBottom li:after{
+    content: "";
+    display: block;
+    width: calc(100% - 10px);
+    height: 1px;
+    background: #d6d6d6;
+    margin: 0 auto;
+}
+.gnbBottom li a{
+    color: #000;
+    display: block;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.gnbBottom li.last:after{
+    display: none;
+}
+.gnbBottom li.last a{}
+
+.gnbLogo{
+    width: 110px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.gnbLogo a{
+    height: 100%;
+    display: block;
+}
+.gnbLogo a img{
+    width: 100%;
+    display: block;
+}
+
+/*배경오퍼시티*/
+.bgOpacity{
+    width: 0;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    overflow-x: hidden;
+}
+/*배경오퍼시티2*/
+.bgOpacity2{
+    width: 0;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    z-index: 25;
+    top: 0;
+    overflow-x: hidden;
+}
+.bgOpacity2 a{
+    height: 100%;
+    display: block;
+}
+/*로그인*/
+.login{
+    width: 0;
+    height: 400px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    position: fixed;
+    top: 50%;
+    margin-top: -200px;
+    left: 50%;
+    margin-left: -170px;
+    background: #fff;
+    z-index: 30;
+    padding: 20px 0 30px 0;
+}
+
+.loginLogo{
+    width: 140px;
+    margin: 0 auto;
+}
+.loginLogo a{
+    display: block;
+}
+.loginLogo a img{
+    width: 100%;
+    display: block;
+}
+
+
+
+.id{
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 220px;
+    padding: 10px;
+    border: 1px solid #abacad;
+}
+.id ul{}
+.id ul li{
+    float: right;
+    height: 21.38px;
+}
+.id ul li input{
+    height: 100%;
+    display: block;
+    border: 0px;
+}
+.id ul li.icon{
+    width: 20px;
+    height: 21.38px;
+    float: left;
+    position: relative;
+}
+.id ul li.icon:after{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 100%;
+    background: #abacad;
+    position: absolute;
+    top: 0;
+    right: -15px;
+}
+.id ul li.icon img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.password{
+    width: 220px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 5px;
+    border: 1px solid #abacad;
+}
+.password ul{}
+.password ul li{
+    float: right;
+    height: 21.38px;
+}
+.password ul li input{
+    height: 100%;
+    display: block;
+    border: 0px;
+}
+.password ul li.icon{
+    width: 20px;
+    height: 21.38px;
+    float: left;
+    position: relative;
+}
+.password ul li.icon:after{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 100%;
+    background: #abacad;
+    position: absolute;
+    top: 0;
+    right: -15px;
+}
+.password ul li.icon img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.loginBtn{
+    background: #d199c5;
+    width: 242px;
+    margin: 0 auto;
+    margin-top: 3px;
+    text-align: center;
+}
+.loginBtn a{
+    color: #fff;
+    font-size: 15px;
+    display: block;
+    padding: 10px 0;
+}
+
+.facebookBtn{
+    background: #4e6397;
+    width: 242px;
+    margin: 0 auto;
+    margin-top: 3px;
+    text-align: center;
+}
+.facebookBtn a{
+    color: #fff;
+    font-size: 15ox;
+    display: block;
+    padding: 10px 0;
+}
+
+.forgot{}
+.forgot ul{
+    text-align: center;
+    font-size: 0;
+}
+.forgot ul li{
+    color: #bababa;
+    font-size: 12px;
+    display: inline-block;
+}
+.forgot ul li a{
+    color: #bababa;
+    font-size: 12px;
+    display: block;
+}
+
+.joinBtn{
+    background: #d199c5;
+    width: 242px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
+.joinBtn a{
+    color: #fff;
+    font-size: 15px;
+    display: block;
+    padding: 10px 0;
+}
+
+
+/*푸터*/
+.footerTop{
+}
+
+.footerLeftBox{
+    width: calc(55% - 5px);
+    float: left;
+    margin-left: 5px;
+}
+.footerLeftBox li{}
+.footerLeftBox li h3{
+    width: 60px;
+    height: 16px;
+}
+.footerLeftBox li h3 a{
+    display: block;
+    height: 100%;
+}
+.footerLeftBox li h3 a img{
+    width: 100%;
+    display: block;
+}
+.footerLeftBox li p{
+    font-size: 10px;
+    color: #999;
+}
+
+.footerSns{
+    width: 45%;
+    float: left;
+}
+.footerSns h3{}
+.footerSns li{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-right: 10px;
+}
+.footerSns li.last{
+    margin: 0;
+}
+.footerSns li a{
+    display: block;
+    height: 100%;
+}
+.footerSns li a img{
+    width: 100%;
+    display: block;
+}
+
+.footerBottom{}
+
+.pcBtn{
+    width:  80px;
+    height: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background: #999999;
+    text-align: center;
+    line-height: 20px;
+}
+.pcBtn a{
+    color: #fff;
+    font-size: 15px;
+}
+
+.footerUtill{
+    text-align: center;
+}
+.footerUtill ul{
+    font-size: 0;
+}
+.footerUtill ul li{
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
+}
+.footerUtill ul li:after{
+    display: inline-block;
+    content: "";
+    width: 1px;
+    height: 8px;
+    background: #999;
+    margin: 0 5px;
+}
+.footerUtill ul li.last:after{
+    display: none;
+}
+.footerUtill ul li a{
+    font-size: 12px;
+    color: #999;
+}
+.footerUtill ul li.on{}
+.footerUtill ul li.on a{
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

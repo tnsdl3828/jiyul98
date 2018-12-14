@@ -1,0 +1,322 @@
+.profile{}
+
+/*프로필레프트*/
+.profileLeft{
+    width: 50%;
+    float: left;
+}
+
+.bigImg{}
+.bigImg li{}
+.bigImg li img{
+    width: 100%;
+    display: block;
+}
+
+.smallImg{}
+.smallImg li{
+    width: 30%;
+    float: left
+}
+.smallImg li.first{}
+.smallImg li.center{
+    margin-left: 10px;
+}
+.smallImg li.last{
+    float: right;
+}
+.smallImg li img{
+    width: 100%;
+    display: block;
+}
+
+/*프로필라이트*/
+.profileRight{
+    width: 50%;
+    height: 174.95px;
+    float: left;
+}
+.profileRight h3{
+    font-size: 15px;
+    line-height: 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e6e6e6;
+    text-align: center;
+}
+
+.profileRightText{}
+.profileRightText li{
+    color: #000;
+    line-height: 16px;
+    font-size: 12px;
+    margin-left: 5px;
+}
+.profileRightText li span{
+    color: #ff0000;
+}
+
+.profileRightIcon{}
+.profileRightIcon li.heart{
+    width: 100%;
+    height: 35px;
+    line-height: 30px;
+    border: 1px solid #e6e6e6;
+    box-sizing: border-box;
+    margin-top: 3.5px;
+    
+}
+.profileRightIcon li.heart a{
+    display: block;
+    height: 100%;
+    text-align: center;
+}
+.profileRightIcon li.heart a img{
+    display: inline-block;
+    vertical-align: middle;
+}
+.profileRightIcon li.heart a p{
+    display: inline-block;
+    font-size: 12px;
+    color: #000;
+}
+
+.profileRightIcon li.kakaoTalk{
+    width: 100%;
+    height: 35px;
+    line-height: 30px;
+    background: #feea18;
+    border: 1px solid #feea18;
+    box-sizing: border-box;
+}
+.profileRightIcon li.kakaoTalk a{
+    text-align: center;
+    height: 100%;
+    display: block;
+}
+.profileRightIcon li.kakaoTalk a img{
+    display: inline-block;
+    vertical-align: middle;
+}
+.profileRightIcon li.kakaoTalk a p{
+    display: inline-block;
+    font-size: 12px;
+    color: #000;
+}
+
+/*타이틀*/
+.subTitle{
+    text-align: center;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.subTitle h3{
+    font-size: 25px;
+}
+.subTitle h3:after{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 1px;
+    background: #000;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -15px;
+    z-index: 1;
+}
+.subTitle p{
+    font-size: 14px;
+    color: #cdcdcd;
+}
+.subTitle p:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #b5b5b5;
+    position: absolute;
+    bottom: 0;
+}
+
+/*mainRow1*/
+.mainRow1{
+    width: 100%;
+    margin-top: 100px;
+    position: relative;
+}
+.mainRow1 img{
+    width: 100%;
+    display: block;
+}
+.mainRow1 div.textBox{
+    position: absolute;
+    top: 50%;
+    margin-top: -26px;
+    right: 15px;
+}
+.mainRow1 div.textBox h4{
+    font-size: 16px;
+    font-weight: bold;
+}
+.mainRow1 div.textBox h4:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #000;
+    margin: 5px 0 10px 0;
+}
+.mainRow1 div.textBox p{
+    font-size: 12px;
+}
+
+/*mainRow2*/
+.mainRow2{
+    width: 100%;
+    margin-top: 100px;
+    position: relative;
+}
+.mainRow2 img{
+    width: 100%;
+    display: block;
+}
+.mainRow2 div.textBox{
+    position: absolute;
+    top: 50%;
+    margin-top: -34px;
+    left: 15px;
+}
+.mainRow2 div.textBox h4{
+    font-size: 16px;
+    font-weight: bold;
+}
+.mainRow2 div.textBox h4:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #000;
+    margin: 5px 0 10px 0;
+}
+.mainRow2 div.textBox p{
+    font-size: 12px;
+}
+
+/*mainRow3*/
+.mainRow3{
+    width: 100%;
+    margin-top: 100px;
+    position: relative;
+}
+.mainRow3 img{
+    width: 100%;
+    display: block;
+}
+.mainRow3 div.textBox{
+    position: absolute;
+    top: 50%;
+    margin-top: -34px;
+    right: 15px;
+}
+.mainRow3 div.textBox h4{
+    font-size: 16px;
+    font-weight: bold;
+}
+.mainRow3 div.textBox h4:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #000;
+    margin: 5px 0 10px 0;
+}
+.mainRow3 div.textBox p{
+    font-size: 12px;
+}
+
+/*mainRow4*/
+.mainRow4{
+    padding-top: 100px;
+    width: 80%;
+    margin: 0 auto;
+}
+.mainRow4 img{
+    width: 100%;
+    display: block;
+}
+
+/*컨테이너이미지*/
+.containerBottom{
+    padding-top: 100px;
+}
+
+.containerLogo{
+    text-align: center;
+}
+.containerLogo li{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+.containerLogo li.logo{
+    width: 150px;
+}
+.containerLogo li.logo img{
+    width: 100%;
+    display: block;
+}
+
+.containerImg{
+    width: 100%;
+    margin-top: 30px;
+}
+.containerImg img{
+    width: 100%;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

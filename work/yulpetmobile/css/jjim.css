@@ -1,0 +1,345 @@
+/*mainRow1*/
+.mainRow1{
+    text-align: center;
+    border-top: 1px solid #d199c5;
+    background: #f3f3f3;
+}
+
+.row1Box1{
+    width: 33%;
+    height: 80px;
+    background: #f3f3f3;
+    float: left;
+    border-right: 1px solid #d9d9d9;
+    box-sizing: border-box;
+}
+.row1Box1 a{
+    color: #000;
+}
+.row1Box1 a h3{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.row1Box1 a p{
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.row1Box2{
+    width: 33%;
+    height: 80px;
+    background: #f3f3f3;
+    float: left;
+    border-right: 1px solid #d9d9d9;
+    box-sizing: border-box;
+}
+.row1Box2 a{
+    color: #000;
+}
+.row1Box2 a h3{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.row1Box2 a p{
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.row1Box3{
+    width: 33%;
+    height: 80px;
+    background: #f3f3f3;
+    float: left;
+    box-sizing: border-box;
+}
+.row1Box3 a{
+    color: #d199c5;
+}
+.row1Box3 a h3{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.row1Box3 a p{
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+
+/*mainRow2*/
+.mainRow2{}
+
+/*로우2탑*/
+.row2Top{
+    position: relative;
+    padding: 10px 0;
+    border-bottom: 1px solid #d9d9d9;
+}
+.row2Top ul{}
+.row2Top ul li.catImg{
+    float: left;
+    width: 65px;
+    height: 65px;
+    margin-left: 10px;
+}
+.row2Top ul li.catImg a{
+    height: 100%;
+    display: block;
+}
+.row2Top ul li.catImg a img{
+    width: 100%;
+}
+
+.bestBtn{
+    float: left;
+    margin-top: 10px;
+}
+.bestBtn ul{}
+.bestBtn ul li{
+    width: 45px;
+    height: 15px;
+    border: 1px solid #697c9f;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 15px;
+    color: #697c9f;
+}
+
+.row2Top ul li.center{
+    float: left;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.row2Top ul li.center a{
+    display: block;
+}
+.row2Top ul li.center a p{
+    font-weight: 600;
+    font-size: 14px;
+    color: #000;
+}
+
+.heartBtn{
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.heartBtn ul{
+    font-size: 0;
+}
+.heartBtn ul li{
+    display: inline-block;
+    vertical-align: middle;
+}
+.heartBtn ul li.img{
+    width: 17px;
+    height: 13.47px;
+}
+.heartBtn ul li.img a{
+    height: 100%;
+    display: block;
+}
+.heartBtn ul li.img a img{
+    width: 100%;
+    display: block;
+}
+.heartBtn ul li p{
+    font-size: 15px;
+    color: #000;
+    font-weight: 600;
+}
+
+.row2Top ul li.last{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+}
+.row2Top ul li.last a{
+    height: 100%;
+    display: block;
+}
+.row2Top ul li.last a img {
+    width: 100%;
+}
+
+/*로우2센터*/
+.row2Center{
+    position: relative;
+    padding: 10px 0;
+    border-bottom: 1px solid #d9d9d9;
+}
+.row2Center ul{}
+.row2Center ul li.catImg{
+    float: left;
+    width: 65px;
+    height: 65px;
+    margin-left: 10px;
+}
+.row2Center ul li.catImg a{
+    height: 100%;
+    display: block;
+}
+.row2Center ul li.catImg a img{
+    width: 100%;
+}
+
+.bestBtn{
+    float: left;
+    margin-top: 10px;
+}
+.bestBtn ul{}
+.bestBtn ul li{
+    width: 45px;
+    height: 15px;
+    border: 1px solid #697c9f;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 15px;
+    color: #697c9f;
+}
+
+.row2Center ul li.center{
+    float: left;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.row2Center ul li.center a{
+    display: block;
+}
+.row2Center ul li.center a p{
+    font-weight: 600;
+    font-size: 14px;
+    color: #000;
+}
+
+.heartBtn{
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.heartBtn ul{
+    font-size: 0;
+}
+.heartBtn ul li{
+    display: inline-block;
+    vertical-align: middle;
+}
+.heartBtn ul li.img{
+    width: 17px;
+    height: 13.47px;
+}
+.heartBtn ul li.img a{
+    height: 100%;
+    display: block;
+}
+.heartBtn ul li.img a img{
+    width: 100%;
+    display: block;
+}
+.heartBtn ul li p{
+    font-size: 15px;
+    color: #000;
+    font-weight: 600;
+}
+
+.row2Center  ul li.last{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+}
+.row2Center  ul li.last a{
+    height: 100%;
+    display: block;
+}
+.row2Center  ul li.last a img {
+    width: 100%;
+}
+
+/*페이지버튼*/
+.pageBtn{
+    margin-top: 40px;
+}
+.pageBtn ul{
+    font-size: 0;
+    text-align: center;
+}
+.pageBtn ul li{
+    width: 50px;
+    height: 32px;
+    display: inline-block;
+    margin: 0 10px;
+}
+.pageBtn ul li.pageCenter{
+    text-align: center;
+    font-size: 15px;
+    line-height: 32px;
+    background: #d199c5;
+    border: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    color: #fff;
+    vertical-align: top;
+}
+.pageBtn ul li a{
+    display: block;
+    height: 100%;
+}
+.pageBtn ul li a img{
+    width: 100%;
+    display: block;
+}
+
+/*컨테이너이미지*/
+.containerImg{}
+.containerImg ul{}
+.containerImg ul li{
+    width: 150px;
+    height: 135px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.containerImg ul li img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

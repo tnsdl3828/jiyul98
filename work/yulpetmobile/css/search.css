@@ -1,0 +1,170 @@
+/*컨테이너탑*/
+.containerTop{
+    box-sizing: border-box;
+    border-bottom: 1px solid #d9d9d9;
+}
+.containerTop ul{}
+.containerTop ul li{
+    width: 50%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+}
+.containerTop ul li.on{
+    position: relative;
+}
+.containerTop ul li.on:after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 1px;
+    background: #d199c5;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -25px;
+    
+}
+.containerTop ul li a{
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+}
+
+/*검색어목록*/
+.searchList{}
+
+.leftList{
+    width: 50%;
+    float: left;
+}
+.leftList ul{}
+.leftList ul li{
+    height: 40px;
+    line-height: 40px;
+    border-right: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    box-sizing: border-box;
+}
+.leftList ul li.up{
+    position: relative;
+}
+.leftList ul li a div.upImg{
+    width: 10px;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    margin-top: -6px;
+}
+.leftList ul li a div.upImg img{
+    width: 100%;
+    display: block;
+}
+.leftList ul li.down{
+    position: relative;
+}
+.leftList ul li div.downImg{
+    width: 10px;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    margin-top: -6px;
+}
+.leftList ul li div.downImg img{
+    width: 100%;
+    display: block;
+}
+.leftList ul li a{
+    display: block;
+    color: #000;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 5px;
+}
+
+.rightList{
+    width: 50%;
+    float: left;
+}
+.rightList ul{}
+.rightList ul li{
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #d9d9d9;
+    box-sizing: border-box;
+}
+.rightList ul li.up{
+    position: relative;
+}
+.rightList ul li a div.upImg{
+    width: 10px;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    margin-top: -6px;
+}
+.rightList ul li a div.upImg img{
+    width: 100%;
+    display: block;
+}
+.rightList ul li.down{
+    position: relative;
+}
+.rightList ul li div.downImg{
+    width: 10px;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    margin-top: -6px;
+}
+.rightList ul li div.downImg img{
+    width: 100%;
+    display: block;
+}
+.rightList ul li a{
+    display: block;
+    color: #000;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

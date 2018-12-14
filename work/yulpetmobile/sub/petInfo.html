@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+<title>율펫 상세화면</title>
+<link rel="stylesheet" type="text/css"/ href="../css/petInfo.css">
+<link rel="stylesheet" type="text/css"/ href="../css/include.css">
+<link rel="stylesheet" type="text/css"/ href="../css/common.css">
+<link rel="stylesheet" type="text/css"/ href="../css/default.css">
+<link rel="stylesheet" type="text/css"/ href="../font/fonts.css">
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="../js/common.js"></script>
+<script>
+function openNav() {
+    document.getElementById("slideNav").style.width = "250px";
+    document.getElementById("bgOpacity").style.width = "100%";
+    document.getElementById("backIcon").style.left = "270px";
+}
+
+function closeNav() {
+    document.getElementById("slideNav").style.width = "0";
+    document.getElementById("bgOpacity").style.width = "0%";
+    document.getElementById("backIcon").style.left = "0";
+}
+function openLogin() {
+    document.getElementById("login").style.width = "340px";
+    document.getElementById("slideNav").style.width = "0";
+    document.getElementById("bgOpacity2").style.width = "100%";
+    document.getElementById("bgOpacity").style.width = "0";
+}
+function closeLogin() {
+    document.getElementById("login").style.width = "0";
+    document.getElementById("bgOpacity2").style.width = "0%";
+}
+</script>
+</head>
+
+<body>
+    <!--전체시작-->
+    <div id="wrap">
+        <!--헤더시작-->
+        <header id="header" class="cf">
+            <!--패널시작-->
+            <div class="pannel">
+                <a href="#" onclick="openNav()">
+                    <img src="../images/sub/petInfo/iconMenu.png" alt="메뉴아이콘"/>
+                </a>
+            </div>
+            <!--패널끝-->
+            
+            <!--로고시작-->
+            <h1>
+                <a href="../index.html">
+                    <img src="../images/sub/petInfo/logo.png" alt="로고이미지"/>
+                </a>
+            </h1>
+            <!--로고끝-->
+            
+            <!--검색아이콘시작-->
+            <div class="searchIcon">
+                <a href="search.html">
+                    <img src="../images/sub/petInfo/iconSearch.png" alt="검색아이콘"/>
+                </a>
+            </div>
+            <!--검색아이콘끝-->
+            
+            <!--gnb시작-->
+            <div class="gnb" id="slideNav">
+                <div class="gnbWrap">
+                <ul class="gnbTop cf">
+                    <li>
+                        <a href="#">
+                            <img src="../images/sub/petInfo/menuiconMypage.png" alt="메뉴마이페이지아이콘"/>
+                        </a>
+                    </li>
+                    <li class="text">
+                        <a href="#" onclick="openLogin()">
+                            로그인
+                        </a>
+                    </li>
+                    <li class="setup">
+                        <a href="#">
+                            <img src="../images/sub/petInfo/menuiconSetup.png" alt="설정아이콘"/>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="gnbMiddle">
+                    <li>
+                        <a href="#">
+                            최근 본 PET
+                        </a>
+                    </li>
+                    <li class="last">
+                        <a href="jjim.html">
+                            찜<span>&hearts;</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="gnbBottom">
+                    <li>
+                        <a href="#">
+                            DOG
+                        </a>
+                    </li>
+                    <li>
+                        <a href="cat.html">
+                            CAT
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            BEST
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            SHOW TYPE
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            PET TYPE
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            분양후기
+                        </a>
+                    </li>
+                    <li>
+                        <a href="event.html">
+                            이벤트
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            FAQ
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            공지사항
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            사이트맵
+                        </a>
+                    </li>
+                    <li class="last">
+                        <a href="sale.html">
+                            고객센터
+                        </a>
+                    </li>
+                </ul>
+                <div class="gnbLogo">
+                    <a href="../index.html">
+                        <img src="../images/sub/petInfo/menulogo.png" alt="메뉴로고"/>
+                    </a>
+                </div>
+                </div>
+            </div>
+            <!--gnb끝-->
+        </header>
+        <!--헤더끝-->
+        
+        <!--배경오퍼시티시작-->
+        <div id="bgOpacity" class="bgOpacity">
+            <div class="backIcon" id="backIcon">
+                <a href="javascript:void(0)" onclick="closeNav()">
+                    <img src="../images/sub/petInfo/menuiconBack.png" alt="뒤로가기아이콘"/>
+                </a>
+            </div>
+        </div>
+        <!--배경오퍼시티끝-->
+        
+        <!--배경오퍼시티시작2-->
+        <div id="bgOpacity2" class="bgOpacity2">
+            <a href="#" onclick="closeLogin()">
+            </a>
+        </div>
+        <!--배경오퍼시티2끝-->
+        
+        <!--로그인시작-->
+        <div class="login" id="login">
+            <div class="loginLogo">
+                <a href="../index.html">
+                    <img src="../images/sub/petInfo/login_logo.png" alt="로그인로고"/>
+                </a>
+            </div>
+            <div class="id cf">
+                <ul>
+                    <li class="icon">
+                        <img src="../images/sub/petInfo/login_idIcon.png" alt="아이디아이콘"/>
+                    </li>
+                    <li>
+                        <input type="text" maxlength="10" placeholder="ID">
+                    </li>
+                </ul>
+            </div>
+            <div class="password cf">
+                <ul>
+                    <li class="icon">
+                        <img src="../images/sub/petInfo/login_passwordIcon.png" alt="비밀번호아이콘"/>
+                    </li>
+                    <li>
+                        <input type="password" maxlength="10" placeholder="PASSWORD">
+                    </li>
+                </ul>
+            </div>
+            <div class="loginBtn">
+                <a href="#">
+                    LOGIN
+                </a>
+            </div>
+            <div class="facebookBtn">
+                <a href="http://www.facebook.com/">
+                    FACEBOOK
+                </a>
+            </div>
+            <div class="forgot">
+                <ul>
+                    <li>
+                        <a href="#">
+                            FORGOT ID
+                        </a>
+                    </li>
+                    <li>
+                        &#47;
+                    </li>
+                    <li>
+                        <a href="#">
+                            PASSWORD
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="joinBtn">
+                <a href="#">
+                    회원가입
+                </a>
+            </div>
+        </div>
+        <!--로그인끝-->
+        
+        <!--컨테이너시작-->
+        <div id="container">
+            <!--프로필시작-->
+            <div class="profile cf">
+                <!--프로필레프트시작-->
+                <div class="profileLeft">
+                    <ul class="bigImg">
+                        <li>
+                            <img src="../images/sub/petInfo/subImage1.png" alt="큰프로필이미지"/>
+                        </li>
+                    </ul>
+                    <ul class="smallImg cf">
+                        <li class="first">
+                            <a href="#">
+                                <img src="../images/sub/petInfo/subImage2.png" alt="작은프로필이미지1"/>
+                            </a>
+                        </li>
+                        <li class="center">
+                            <a href="#">
+                                <img src="../images/sub/petInfo/subImage3.png" alt="작은프로필이미지2"/>
+                            </a>
+                        </li>
+                        <li class="last">
+                            <a href="#">
+                                <img src="../images/sub/petInfo/subImage4.png" alt="작은프로필이미지3"/>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!--프로필레프트끝-->
+                
+                <!--프로필라이트시작-->
+                <div class="profileRight">
+                    <h3>
+                        노르웨이 숲&#95;브린
+                    </h3>
+                    <ul class="profileRightText">
+                        <li>
+                            묘종&#58; 노르웨이 숲
+                        </li>
+                        <li>
+                            성별&#58; 남 아 male
+                        </li>
+                        <li>
+                            나이&#58; 2개월령
+                        </li>
+                        <li>
+                            분양가&#58; <span>담당지점 문의</span>
+                        </li>
+                        <li>
+                            지점&#58; 안양점
+                        </li>
+                    </ul>
+                    <ul class="profileRightIcon">
+                        <li class="heart">
+                            <a href="jjim.html">
+                                <img src="../images/sub/petInfo/iconHeart.png" alt="하트아이콘"/>
+                                <p>
+                                    &#43; 찜하기
+                                </p>
+                            </a>
+                        </li>
+                        <li class="kakaoTalk">
+                            <a href="https://www.kakaocorp.com/">
+                                <img src="../images/sub/petInfo/iconKakaotalk.png" alt="카카오톡"/>
+                                <p>
+                                    카톡문의&#64;지율펫
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!--프로필라이트끝-->
+            </div>
+            <!--프로필끝-->
+            
+            <!--타이틀시작-->
+            <div class="subTitle">
+                <h3>
+                    PRODUCT
+                </h3>
+                <p>
+                    동물정보를 자세하게 알려드려요
+                </p>
+            </div>
+            <!--타이틀끝-->
+            
+            <!--mainRow1시작-->
+            <div class="mainRow1">
+                <img src="../images/sub/petInfo/subImg5.png" alt="로우1이미지"/>
+                <div class="textBox">
+                    <h4>
+                        성격
+                    </h4>
+                    <p>
+                        활발하고 애교많음
+                    </p>
+                </div>
+            </div>
+            <!--mainRow1끝-->
+            
+            <!--mainRow2시작-->
+            <div class="mainRow2">
+                <img src="../images/sub/petInfo/subImg6.png" alt="로우2이미지"/>
+                <div class="textBox">
+                    <h4>
+                        좋아하는 것
+                    </h4>
+                    <p>
+                        꾹꾹이를 좋아함
+                    </p>
+                    <p>
+                        빗질을 좋아함
+                    </p>
+                </div>
+            </div>
+            <!--mainRow2끝-->
+            
+            <!--mainRow3시작-->
+            <div class="mainRow3">
+                <img src="../images/sub/petInfo/subImg7.png" alt="로우3이미지"/>
+                <div class="textBox">
+                    <h4>
+                        싫어하는 것
+                    </h4>
+                    <p>
+                        배만지면 싫어요
+                    </p>
+                    <p>
+                        코만지면 싫어요
+                    </p>
+                </div>
+            </div>
+            <!--mainRow3끝-->
+            
+            <!--mainRow4시작-->
+            <div class="mainRow4">
+                <img src="../images/sub/petInfo/subImage8.png" alt="로우4고양이이미지"/>
+            </div>
+            <!--mainRow4끝-->
+            
+            <!--컨테이너이미지시작-->
+            <div class="containerBottom">
+                <ul class="containerLogo">
+                    <li>
+                        반려묘의 좋은친구
+                    </li>
+                    <li class="logo">
+                        <img src="../images/sub/petInfo/logo.png" alt="컨테이너로고"/>
+                    </li>
+                </ul>
+                <ul class="containerImg">
+                    <img src="../images/sub/petInfo/subImagecats.png" alt="컨테이너이미지"/>
+                </ul>
+            </div>
+            <!--컨테이너이미지끝-->
+        </div>
+        <!--컨테이너끝-->
+        
+        <!--푸터시작-->
+        <footer id="footer">
+            <div class="footerTop cf">
+                <ul class="footerLeftBox">
+                    <li>
+                        <h3>
+                            <a href="../index.html">
+                                <img src="../images/sub/petInfo/footerLogo.png" alt="푸터로고"/>
+                            </a>
+                        </h3>
+                        <p>
+                            &#40;주&#41;지율 펫 &#124; 대표이사&#58;김지율<br/>
+                            사업자번호&#58;123456789<br/>
+                            부산광역시 부산진구 신천대로50번길 79
+                        </p>
+                    </li>
+                </ul>
+                <ul class="footerSns cf">
+                    <h3>
+                        SNS
+                    </h3>
+                    <li>
+                        <a href="http://www.facebook.com/">
+                            <img src="../images/sub/petInfo/footerFacebook.png" alt="페이스북아이콘"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.instagram.com">
+                            <img src="../images/sub/petInfo/footerInstagram.png" alt="인스타그램아이콘"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://blog.naver.com/">
+                            <img src="../images/sub/petInfo/footerNaverbolg.png" alt="네이버블로그아이콘"/>
+                        </a>
+                    </li>
+                    <li class="last">
+                        <a href="https://www.kakaocorp.com/">
+                            <img src="../images/sub/petInfo/footerKakaotalk.png" alt="카카오톡아이콘"/>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footerBottom">
+                <div class="pcBtn">
+                    <a href="#">
+                        PC버전
+                    </a>
+                </div>
+                <div class="footerUtill">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                이용 약관
+                            </a>
+                        </li>
+                        <li class="on">
+                            <a href="#">
+                                개인정보처리방침
+                            </a>
+                        </li>
+                        <li class="last">
+                            <a href="#">
+                                지율펫 고객센터
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <!--푸터끝-->
+    </div>
+    <!--전체끝-->
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

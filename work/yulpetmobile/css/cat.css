@@ -1,0 +1,238 @@
+/*서브슬라이더*/
+.subSlider{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+.subSlider img{
+    width: 100%;
+    display: block;
+}
+.textBox{
+    width: 50%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 0;
+}
+.textBox ul{
+    height: 100%;
+    position: relative;
+}
+.textBox ul li{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    margin-top: -34px;
+    left: 50%;
+    margin-left: -76px;
+}
+.textBox ul li h3{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: right;
+}
+.textBox ul li p{
+    font-size: 12px;
+    font-weight: 200;
+    text-align: right;
+}
+
+/*모든고양이타이틀*/
+.allCatTitle{
+    text-align: center;
+}
+.allCatTitle h3{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.allCatTitle p{
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.allCatTitle p:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 1px;
+    background: #d9d9d9;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+/*모든고양이정보*/
+.allCatInfo{
+    width: calc(100% - 10px);
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.allCatInfoTop{
+    width: 100%;
+}
+.allCatInfoTop ul{}
+.allCatInfoTop ul li{
+    width: calc(33% - 10px);
+    float: left;
+}
+.allCatInfoTop ul li.first{
+    margin-right: 15px;
+}
+.allCatInfoTop ul li.center{
+    margin-right: 15px;
+}
+.allCatInfoTop ul li.last{}
+.allCatInfoTop ul li a{
+    text-align: center;
+}
+.allCatInfoTop ul li a img{
+    width: 100%;
+}
+.allCatInfoTop ul li a p{
+    font-size: 12px;
+    color: #000;
+}
+
+.allCatInfoTop ul li a div.bestIcon{
+    width: 50px;
+    height: 18px;
+    margin: 0 auto;
+}
+.allCatInfoTop ul li a div.bestIcon ul{
+    width: 100%;
+    height: 100%;
+}
+.allCatInfoTop ul li a div.bestIcon ul li{
+    width: 50px;
+    height: 18px;
+    line-height: 16px;
+    border-radius: 50px;
+    border: 1px solid #697c9f;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 12px;
+    color: #697c9f;
+}
+
+
+.allCatInfoBottom{
+    width: 100%;
+    margin-top: 30px;
+}
+.allCatInfoBottom ul{}
+.allCatInfoBottom ul li{
+    width: calc(33% - 10px);
+    float: left;
+    position: relative;
+}
+.allCatInfoBottom ul li.first{
+    margin-right: 15px;
+}
+.allCatInfoBottom ul li.center{
+    margin-right: 15px;
+}
+.allCatInfoBottom ul li.last{}
+.allCatInfoBottom ul li a{
+    text-align: center;
+}
+.allCatInfoBottom ul li a img{
+    width: 100%;
+}
+.allCatInfoBottom ul li a p{
+    font-size: 12px;
+    color: #000;
+}
+
+.allCatInfoBottom ul li a div.bestIcon{
+    width: 50px;
+    height: 18px;
+    margin: 0 auto;
+}
+.allCatInfoBottom ul li a div.bestIcon ul{
+    width: 100%;
+    height: 100%;
+}
+.allCatInfoBottom ul li a div.bestIcon ul li{
+    width: 50px;
+    height: 18px;
+    line-height: 16px;
+    border-radius: 50px;
+    border: 1px solid #697c9f;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 12px;
+    color: #697c9f;
+}
+
+/*더보기버튼*/
+.moreBtn{
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.moreBtn a{
+    height: 100%;
+    display: block;
+}
+.moreBtn a img{
+    width: 100%;
+    display: block;
+}
+
+/*컨테이너이미지*/
+.containerBottom{
+    padding-top: 60px;
+}
+
+.containerLogo{
+    text-align: center;
+}
+.containerLogo li{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+.containerLogo li.logo{
+    width: 150px;
+}
+.containerLogo li.logo img{
+    width: 100%;
+    display: block;
+}
+
+.containerImg{
+    width: 100%;
+    margin-top: 30px;
+}
+.containerImg img{
+    width: 100%;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
