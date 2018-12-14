@@ -1,0 +1,599 @@
+@charset "utf-8";
+body,h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+
+body{
+    font-family: 'NotoSans','Noto serif KR',sans-serif
+}
+
+ul,dd,dt{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.cf:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*전체시작*/
+#wrap{
+    width: 100%;
+}
+
+/*헤더*/
+#header{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#header h1{
+    width: 55px;
+    height: 22px;
+    background: url(../../images/m_sp_com.png) no-repeat;
+    background-position: -151px -2px;
+    text-indent: -9999px;
+    float: left;
+}
+#header h1 a{
+    height: 100%;
+    display: block;
+}
+
+/*탑라이트메뉴*/
+.topRightMenu{
+    width: 18px;
+    height: 16px;
+    background: url(../../images/m_sp_com.png) no-repeat;
+    background-position: -228px -99px;
+    text-indent: -9999px;
+    float: right;
+    margin-top: 4px;
+}
+.topRightMenu a{
+    height: 100%;
+    display: block;
+}
+
+/*메인슬라이더*/
+.mainSlider{
+    height: 370px;
+    position: relative;
+    overflow: hidden;
+}
+.mainSlider img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -515px;
+}
+.mainSlider h3{
+    font-size: 17px;
+    line-height: 1.5;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    margin-top: -40px;
+    left: 50%;
+    margin-left: -64px;
+    color: #fff;
+}
+.mainSlider p{
+    font-size: 14px;
+    text-align: center;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    margin-left: -151px;
+    color: #fff;
+    font-weight: 200;
+}
+
+/*메인슬라이더버튼*/
+.mainSliderBtn{}
+
+/*왼쪽버튼*/
+.leftBtn{
+    position: absolute;
+    top: 50%;
+    margin-top: -8px;
+    left: 20px;
+}
+.leftBtn li{
+    width: 8px;
+    height: 16px;
+    background: url(../../images/m_sp_com.png) no-repeat;
+    background-position: -360px -45px;
+    text-indent: -9999px;
+}
+.leftBtn li a{
+    height: 100%;
+    display: block;
+}
+
+/*오른쪽버튼*/
+.rightBtn{
+    position: absolute;
+    top: 50%;
+    margin-top: -8px;
+    right: 20px;
+}
+.rightBtn li{
+    width: 8px;
+    height: 16px;
+    background: url(../../images/m_sp_com.png) no-repeat;
+    background-position: -345px -45px;
+    text-indent: -9999px;
+}
+.rightBtn li a{
+    height: 100%;
+    display: block;
+}
+
+/*mainRow1*/
+.mainRow1{}
+
+/*로우1탑박스*/
+.row1TopBox{
+}
+
+/*박스1*/
+.box1{}
+.box1 dl{
+    width: 33%;
+    text-align: center;
+    padding: 15px 0;
+    float: left;
+}
+.box1 dl dt{
+    width: 26px;
+    height: 20px;
+    text-indent: -9999px;
+    background: url(../../images/m_sp_com.png) no-repeat;
+    background-position: 0 -245px;
+    margin: 0 auto;
+    top: 20px;
+}
+.box1 dl dd{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/*박스2*/
+.box2{}
+.box2 dl{
+    width: 33%;
+    text-align: center;
+    padding: 15px 0;
+    float: left;
+}
+.box2 dl dt{
+    width: 19px;
+    height: 20px;
+    text-indent: -9999px;
+    background: url(../../images/m_sp_com.png) no-repeat;
+    background-position: -29px -245px;
+    margin: 0 auto;
+    top: 20px;
+}
+.box2 dl dd{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/*박스3*/
+.box3{}
+.box3 dl{
+    width: 33%;
+    text-align: center;
+    padding: 15px 0;
+    float: left;
+}
+.box3 dl dt{
+    width: 21px;
+    height: 22px;
+    text-indent: -9999px;
+    background: url(../../images/m_sp_com.png) no-repeat;
+    background-position: -54px -244px;
+    margin: 0 auto;
+    top: 20px;
+}
+.box3 dl dd{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/*박스4*/
+.box4{}
+.box4 dl{
+    width: 33%;
+    text-align: center;
+    padding: 15px 0;
+    float: left;
+}
+.box4 dl dt{
+    width: 24px;
+    height: 21px;
+    text-indent: -9999px;
+    background: url(../../images/m_sp_com.png) no-repeat;
+    background-position: -79px -244px;
+    margin: 0 auto;
+    top: 20px;
+}
+.box4 dl dd{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/*박스5*/
+.box5{}
+.box5 dl{
+    width: 33%;
+    text-align: center;
+    padding: 15px 0;
+    float: left;
+}
+.box5 dl dt{
+    width: 19px;
+    height: 22px;
+    text-indent: -9999px;
+    background: url(../../images/m_sp_com.png) no-repeat;
+    background-position: -107px -244px;
+    margin: 0 auto;
+    top: 20px;
+}
+.box5 dl dd{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/*박스6*/
+.box6{}
+.box6 dl{
+    width: 33%;
+    text-align: center;
+    padding: 15px 0;
+    float: left;
+}
+.box6 dl dt{
+    width: 20px;
+    height: 20px;
+    text-indent: -9999px;
+    background: url(../../images/m_sp_com.png) no-repeat;
+    background-position: -133px -245px;
+    margin: 0 auto;
+    top: 20px;
+}
+.box6 dl dd{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/*mainRow2*/
+.mainRow2{}
+
+.row2TopBox{}
+
+/*row2Box1*/
+.row2Box1{}
+.row2Box1 ul{}
+.row2Box1 ul li{
+    width: 48%;
+    margin: 0 1%;
+    float: left;
+    position: relative;
+}
+.row2Box1 ul li a{}
+.row2Box1 ul li a img{
+    width: 100%;
+}
+.row2Box1 ul li a p{
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+    margin-left: -22px;
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+}
+
+/*row2Box2*/
+.row2Box2{}
+.row2Box2 ul{}
+.row2Box2 ul li{
+    width: 48%;
+    margin: 0 1%;
+    float: left;
+    position: relative;
+}
+.row2Box2 ul li a{}
+.row2Box2 ul li a img{
+    width: 100%;
+}
+.row2Box2 ul li a p{
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+    margin-left: -36px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+}
+
+/*row2BottomBox*/
+.row2BottomBox{}
+
+/*row2Box3*/
+.row2Box3{}
+.row2Box3 ul{}
+.row2Box3 ul li{
+    width: 48%;
+    margin: 0 1%;
+    float: left;
+    position: relative;
+}
+.row2Box3 ul li a{}
+.row2Box3 ul li a img{
+    width: 100%;
+}
+.row2Box3 ul li a p{
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+    margin-left: -34px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+}
+
+/*row2Box4*/
+.row2Box4{}
+.row2Box4 ul{}
+.row2Box4 ul li{
+    width: 48%;
+    margin: 0 1%;
+    float: left;
+    position: relative;
+}
+.row2Box4 ul li a{}
+.row2Box4 ul li a img{
+    width: 100%;
+}
+.row2Box4 ul li a p{
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+    margin-left: -27px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+}
+
+/*mainRow3*/
+.mainRow3{}
+
+.row3TopBox{
+    background: #f2f0ed;
+    margin: 5px 10px 10px 10px;
+}
+.row3TopBox ul{}
+.row3TopBox ul li{
+    height: 45px;
+    line-height: 45px;
+}
+.row3TopBox ul li a{}
+.row3TopBox ul li a h3{
+    margin-right: 40px;
+    margin-left: 25px;
+    font-size: 14px;
+    color: #2d5b79;
+    float: left;
+}
+.row3TopBox ul li a p{
+    font-size: 14px;
+    color: #000;
+    font-weight: 200;
+    float: left;
+}
+
+.row3BottomBox{
+    background: #f2f0ed;
+    margin: 5px 10px 10px 10px;
+}
+.row3BottomBox ul{}
+.row3BottomBox ul li{
+    height: 45px;
+    line-height: 45px;
+}
+.row3BottomBox ul li a{}
+.row3BottomBox ul li a h3{
+    margin-right: 40px;
+    margin-left: 25px;
+    font-size: 14px;
+    color: #2d5b79;
+    float: left;
+}
+.row3BottomBox ul li a p{
+    font-size: 14px;
+    color: #000;
+    font-weight: 200;
+    float: left;
+}
+
+/*mainRow4*/
+.mainRow4{
+    width: 100%;
+}
+
+.mainRow4Bg{
+    width: 100%;
+    background: url(../../images/mainrow5_bg.jpg) no-repeat;
+}
+
+.mainRow4Top{}
+
+.row4Box1{
+    width: 46%;
+    height: 120px;
+    margin: 0 2%;
+    background: url(../../images/bg_business_link01_m.jpg) no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+}
+
+.row4Box1TextBox{
+    width: 90%;
+    height: 100px;
+    margin: 10px 5%;
+    border: 1px solid #fff;
+}
+.row4Box1TextBox ul{}
+.row4Box1TextBox ul li{
+    text-align: center;
+    padding-top: 60px;
+}
+.row4Box1TextBox ul li a{
+    height: 120px;
+    display: block;
+}
+.row4Box1TextBox ul li a p{
+    font-size: 14px;
+    color: #000;
+}
+
+/*푸터시작*/
+#footer{
+    font-weight: 200;
+}
+
+.footerTop{
+    text-align: center;
+    font-size: 0;
+    background: #383f43;
+    padding: 20px 0;
+}
+
+.footerMenu{}
+.footerMenu ul li{
+    display: inline-block;
+    font-size: 12px;
+    line-height: 30px;
+}
+.footerMenu ul li:after{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 8px;
+    background: #fff;
+    margin: 0 5px;
+}
+.footerMenu ul li:last-child:after{
+    display: none;
+}
+.footerMenu ul li a{
+    color: #fff;
+}
+
+.footerCs{
+    margin-top: 15px;
+}
+.footerCs li:first-child{
+    background: #2a3033;
+    color: #fff;
+}
+.footerCs li,.footerCs li select{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 12px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    border: 0;
+}
+.footerCs li span{
+    padding-right:10px;
+}
+
+.copy{
+    background: #4c5459;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    font-size: 11px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

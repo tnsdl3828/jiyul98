@@ -1,0 +1,596 @@
+@media screen and (max-width:768px){
+    body{
+        min-width: 100%;
+        width: 100%;
+    }
+    .inner{
+        width: 100%;
+    }
+    /*헤더*/
+    #header{}
+    #header h1{
+        width: 55px;
+        height: 22px;
+        background: url(../images/m_sp_com.png) no-repeat;
+        background-position: -151px -2px;
+        text-indent: -9999px;
+        float: left;
+        position: static;
+        margin: 0;
+        top: 0;
+        margin: 10px 0;
+        margin-left: 10px;
+    }
+    #header h1 a{
+        height: 100%;
+        display: block;
+    }
+    
+    /*gnb*/
+    .gnb{
+        display: none;
+    }
+    /*utill*/
+    .utill{
+        display: none;
+    }
+    
+    /*탑라이트메뉴*/
+    .topRightMenu{
+        width: 18px;
+        height: 16px;
+        background: url(../images/m_sp_com.png) no-repeat;
+        background-position: -228px -99px;
+        text-indent: -9999px;
+        float: right;
+        margin: 15px 10px 10px 0;
+        display: block;
+    }
+    .topRightMenu a{
+        height: 100%;
+        display: block;
+    }
+    
+    /*컨테이너시작*/
+    #container{
+        width: 100%;
+    }
+    
+    /*mainSlider*/
+    .mainSlider{
+        height: 370px;
+        overflow: hidden;
+        position: relative;
+    }
+    .mainSlider img{
+        width: auto;
+        height: 100%;
+        position: absolute;
+        left: 50%;
+        margin-left: -488px;
+    }
+    
+    /*왼쪽버튼*/
+    .sliderLeftBtn{
+        width: 8px;
+        height: 16px;
+        background: url(../images/m_sp_com.png) no-repeat;
+        background-position: -360px -45px;
+        text-indent: -9999px;
+        position: absolute;
+        top: 50%;
+        margin-top: -8px;
+        left: 20px;
+    }
+    .sliderLeftBtn a{
+        height: 100%;
+        display: block;
+    }
+    
+    /*오른쪽버튼*/
+    .sliderRightBtn{
+        width: 8px;
+        height: 16px;
+        background: url(../images/m_sp_com.png) no-repeat;
+        background-position: -345px -45px;
+        text-indent: -9999px;
+        position: absolute;
+        top: 50%;
+        margin-top: -8px;
+        right: 20px;
+    }
+    .sliderRightBtn a{
+        height: 100%;
+        display: block;
+    }
+    
+    /*배너시작*/
+    #bannerWrap{}
+    
+    /*mainRow1*/
+    .mainRow1{}
+    
+    .row1{}
+    .row1 li{
+        width: 33%;
+        text-align: center;
+        float: left;
+        float: left;
+    }
+    .row1 li a{}
+    .row1 li a span{
+        width: 26px;
+        height: 20px;
+    }
+    .row1 li a p{
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .icon1,.icon2,.icon3,.icon4,.icon5,.icon6{
+        background: url(../images/m_sp_com.png) no-repeat;
+        text-indent: -9999px;
+        display: inline-block;
+        margin: 15px 0;
+    }
+    .icon1{
+        background-position: 0 -245px;
+    }
+    .row1 li a span.icon2{
+        width: 19px;
+        height: 20px;
+        background-position: -29px -245px;
+    }
+    .row1 li a span.icon3{
+        width: 21px;
+        height: 22px;
+        background-position: -54px -244px;
+    }
+    .row1 li a span.icon4{
+        width: 24px;
+        height: 21px;
+        background-position: -79px -244px;
+    }
+    .row1 li a span.icon5{
+        width: 19px;
+        height: 22px;
+        background-position: -107px -244px;
+    }
+    .row1 li a span.icon6{
+        width: 20px;
+        height: 20px;
+        background-position: -133px -245px;
+    }
+    
+    /*한솔매거진*/
+    .mainRow2{
+        display: none;
+    }
+    
+    /*웹mainRow3*/
+    .wmainRow3{
+        display: none;
+    }
+    
+    .wrow3Box1{}
+    .wrow3Box1 a{}
+    .wrow3Box1 a h3{}
+    .wrow3Box1 a p{}
+    
+    .wrow3Box2{}
+    .wrow3Box2 a{}
+    .wrow3Box2 a h3{}
+    .wrow3Box2 a p{}
+    
+    .wrow3Box3{}
+    .wrow3Box3 a{}
+    .wrow3Box3 a h3{}
+    .wrow3Box3 a p{}
+    
+    .wrow3Box4{}
+    .wrow3Box4.last{}
+    .wrow3Box4 h3{}
+    .wrow3Box4 select{
+        display: none;
+    }
+    .wrow3Box4 input{
+        display: none;
+    }
+    .wrow3Box4 button{
+        display: none;
+    }
+    
+    /*mainRow3*/
+    .mMainRow3{
+        display: block;
+    }
+
+    .row3TopBox{}
+
+    /*row3Box1*/
+    .row3Box1{}
+    .row3Box1 ul{}
+    .row3Box1 ul li{
+        width: calc(50% - 15px);
+        margin-left: 10px;
+        margin-right: 5px;
+        float: left;
+        position: relative;
+    }
+    .row3Box1 ul li a{}
+    .row3Box1 ul li a img{
+        width: 100%;
+    }
+    .row3Box1 ul li a p{
+        position: absolute;
+        bottom: 60px;
+        left: 50%;
+        margin-left: -22px;
+        font-size: 14px;
+        color: #000;
+        font-weight: 500;
+    }
+
+    /*row2Box2*/
+    .row3Box2{}
+    .row3Box2 ul{}
+    .row3Box2 ul li{
+        width: calc(50% - 15px);
+        margin-left: 5px;
+        margin-right: 10px;
+        float: left;
+        position: relative;
+    }
+    .row3Box2 ul li a{}
+    .row3Box2 ul li a img{
+        width: 100%;
+    }
+    .row3Box2 ul li a p{
+        position: absolute;
+        bottom: 60px;
+        left: 50%;
+        margin-left: -36px;
+        font-size: 14px;
+        color: #fff;
+        font-weight: 500;
+    }
+
+    /*row3BottomBox*/
+    .row3BottomBox{}
+
+    /*row3Box3*/
+    .row3Box3{}
+    .row3Box3 ul{}
+    .row3Box3 ul li{
+        width: calc(50% - 15px);
+        margin-left: 10px;
+        margin-right: 5px;
+        margin-top: 5px;
+        float: left;
+        position: relative;
+    }
+    .row3Box3 ul li a{}
+    .row3Box3 ul li a img{
+        width: 100%;
+    }
+    .row3Box3 ul li a p{
+        position: absolute;
+        bottom: 60px;
+        left: 50%;
+        margin-left: -34px;
+        font-size: 14px;
+        color: #fff;
+        font-weight: 500;
+    }
+
+    /*row3Box4*/
+    .row3Box4{}
+    .row3Box4 ul{}
+    .row3Box4 ul li{
+        width: calc(50% - 15px);
+        margin-left: 5px;
+        margin-right: 10px;
+        margin-top: 5px;
+        float: left;
+        position: relative;
+    }
+    .row3Box4 ul li a{}
+    .row3Box4 ul li a img{
+        width: 100%;
+    }
+    .row3Box4 ul li a p{
+        position: absolute;
+        bottom: 60px;
+        left: 50%;
+        margin-left: -27px;
+        font-size: 14px;
+        color: #fff;
+        font-weight: 500;
+    }
+    
+    /*mainRow4*/
+    .mainRow4{
+        display: none;
+    }
+    
+    .mMainRow4{
+        display: block;
+    }
+
+    .row4TopBox{
+        background: #f2f0ed;
+        margin: 5px 10px 10px 10px;
+    }
+    .row4TopBox ul{}
+    .row4TopBox ul li{
+        height: 45px;
+        line-height: 45px;
+    }
+    .row4TopBox ul li a{}
+    .row4TopBox ul li a h3{
+        margin-right: 40px;
+        margin-left: 25px;
+        font-size: 14px;
+        color: #2d5b79;
+        float: left;
+        font-weight: 500;
+    }
+    .row4TopBox ul li a p{
+        width: 60%;
+        font-size: 14px;
+        color: #000;
+        font-weight: 200;
+        float: left;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .row4BottomBox{
+        background: #f2f0ed;
+        margin: 5px 10px 10px 10px;
+    }
+    .row4BottomBox ul{}
+    .row4BottomBox ul li{
+        height: 45px;
+        line-height: 45px;
+    }
+    .row4BottomBox ul li a{}
+    .row4BottomBox ul li a h3{
+        margin-right: 40px;
+        margin-left: 25px;
+        font-size: 14px;
+        color: #2d5b79;
+        float: left;
+        font-weight: 500;
+    }
+    .row4BottomBox ul li a p{
+        width: 60%;
+        font-size: 14px;
+        color: #000;
+        font-weight: 200;
+        float: left;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    
+    /*mainRow5*/
+    .mainRow5{
+        background: url(../images/mainrow5_bg.jpg) no-repeat;
+        padding: 10px 0;
+        margin-top: 0;
+    }
+
+    .row5Box{
+        width: calc(50% - 15px);
+        height: auto;
+        text-align: center;
+        float: left;
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+    .row5Box a{
+        color: #333;
+        display: block;
+        height: 100%;
+    }
+    .row5Box p{
+        display: none;
+    }
+    .row5Box h3{
+        font-size: 14px;
+        font-weight: 500;
+        padding-top: 80%;
+        padding-bottom: 20%;
+    }
+
+    .row5Box1{
+        background: url(../images/mainrow5_img1.jpg) no-repeat;
+        background-size: 100% 100%;
+    }
+    .row5Box2{
+        background: url(../images/mainrow5_img2.jpg) no-repeat;
+        background-size: 100% 100%;
+        margin-left: 5px;
+        margin-right: 10px;
+    }
+    .row5Box3{
+        background: url(../images/mainrow5_img3.jpg) no-repeat;
+        background-size: 100% 100%;
+        margin-top: 10px;
+    }
+    .row5Box4{
+        background: url(../images/mainrow5_img4.jpg) no-repeat;
+        background-size: 100% 100%;
+        margin-left: 5px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+
+    /*푸터시작*/
+    #footer{}
+    
+    /*푸터탑*/
+    .footerTop{
+        padding: 20px 0;
+    }
+    
+    /*푸터메뉴*/
+    .footerMenu{
+        width: 100%;
+        height: 35px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .footerMenu li{}
+    .footerMenu li:last-child:after{
+        display: none;
+    }
+    .footerMenu li a{}
+    
+    /*푸터오른쪽*/
+    .footerRight{
+        position: static;
+        margin-left: 0;
+        text-align: center;
+    }
+    .lineNone{
+        display: block;
+    }
+    
+    /*전화번호*/
+    .callNumber{
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    .callNumber span{
+        font-size: 12px;
+        margin-right: 10px;
+    }
+    
+    .familySite{
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .familySite select{
+        width: 120px;
+        font-size: 12px;
+    }
+    .familySite select option{}
+    
+    /*푸터바텀*/
+    .footerBottom{
+        padding: 15px 0;
+    }
+    .footerBottom div.footerLogo{
+        display: none;
+    }
+    .footerBottom span{
+        display: none;
+    }
+    .footerBottom p{
+        font-size: 11px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
