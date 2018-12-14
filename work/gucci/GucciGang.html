@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<title>full page</title>
+<style type="text/css">
+    
+</style>
+<link rel="stylesheet" type="text/css" href="css/fullpage.min.css"> 
+<link rel="stylesheet" type="text/css" href="css/gucci.css"> 
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/fullpage.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            var myFullpage = new fullpage('#fullpage', {
+            sectionsColor: ['#ff0000', '#000000', '#7BAABE', '#000000', '#ccddff'],
+                slidesNavigation:true,
+                navigation:false,
+                anchors:['page1','page2','page3','page4'],
+                navigationTooltips: ['Main', 'Photo', 'Story','Runway'],
+                showActiveTooltip: true,
+                menu: '.topMenu'
+            });
+        });
+    </script>
+</head>
+
+<body>
+<div class="logo">
+    <h1>
+        <a href="#page1">
+            <img src="images/gucci_logo.png" alt="구찌로고"/>
+        </a>
+    </h1>
+</div>
+<div class="topMenu">
+    <ul class="cf">
+        <li data-menuanchor="page1" class="active">
+            <a href="#page1">
+                Gucci
+            </a>
+        </li>
+        <li data-menuanchor="page2">
+            <a href="#page2">
+                Photo
+            </a>
+        </li>
+        <li data-menuanchor="page3">
+            <a href="#page3">
+                Story
+            </a>
+        </li>
+        <li data-menuanchor="page4">
+            <a href="#page4">
+                Runway
+            </a>
+        </li>
+    </ul>
+</div>
+<div id="fullpage">
+	<div class="section active" id="section0">
+    </div>
+	<div class="section" id="section1">
+        <div class="row expand-column-wrapper">
+            <div class="column">
+                <p class="expand-column-content">Gucci</p>
+            </div>
+            <div class="column">
+                <p class="expand-column-content">Gucci</p>
+            </div>
+            <div class="column">
+                <p class="expand-column-content">Gucci</p>
+            </div>
+            <div class="column">
+                <p class="expand-column-content">Gucci</p>
+            </div>
+            <div class="column">
+                <p class="expand-column-content">Gucci</p>
+            </div>
+        </div>
+    </div>
+	<div class="section" id="section2">
+        <ul class="section2Top">
+            <li>
+                <h1>
+                    Gucci Story
+                </h1>
+            </li>
+        </ul>
+        <div class="slide active">
+            <ul class="gucciStoryImg">
+                <li>
+                    <a href="#">
+                        <img src="images/gucci_story_1.jpg" alt="구찌스토리이미지"/>
+                        <p class="one">
+                            MARC BURCKHARDT
+                        </p>
+                    </a>
+                </li>
+                <li> 
+                    <a href="#">
+                        <img src="images/gucci_story_2.jpg" alt="구찌스토리이미지2"/>
+                        <p class="two">
+                            ASHLEY LONGSHORE
+                        </p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+	    <div class="slide">
+            <ul class="gucciStoryImg">
+                <li>
+                    <a href="#">
+                        <img src="images/gucci_story_3.jpg" alt="구찌스토리이미지3"/>
+                        <p class="three">
+                            MARC BURCKHARDT
+                        </p>
+                    </a>
+                </li>
+                <li> 
+                    <a href="#">
+                        <img src="images/gucci_story_4.jpg" alt="구찌스토리이미지4"/>
+                        <p class="fore">
+                            AMBER VITTORIA
+                        </p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+	    <div class="slide">
+            <ul class="gucciStoryImg">
+                <li>
+                    <a href="#">
+                        <img src="images/gucci_story_5.gif" alt="구찌스토리이미지5"/>
+                        <p class="five">
+                            ISABELLA COTIER
+                        </p>
+                    </a>
+                </li>
+                <li> 
+                    <a href="#">
+                        <img src="images/gucci_story_6.gif" alt="구찌스토리이미지6"/>
+                        <p class="six">
+                            ISABELLA COTIER
+                        </p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+	    <div class="slide">
+            <ul class="gucciStoryImg">
+                <li>
+                    <a href="#">
+                        <img src="images/gucci_story_7.jpg" alt="구찌스토리이미지7"/>
+                        <p class="seven">
+                            ANGELA DEANE
+                        </p>
+                    </a>
+                </li>
+                <li> 
+                    <a href="#">
+                        <img src="images/gucci_story_8.gif" alt="구찌스토리이미지8"/>
+                        <p class="eight">
+                            ANGELA DEANE
+                        </p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="slide">
+            <ul class="gucciStoryImg">
+                <li>
+                    <a href="#">
+                        <img src="images/gucci_story_7.jpg" alt="구찌스토리이미지9"/>
+                        <p class="nine">
+                            ANGELA DEANE
+                        </p>
+                    </a>
+                </li>
+                <li> 
+                    <a href="#">
+                        <img src="images/gucci_story_8.gif" alt="구찌스토리이미지10"/>
+                        <p class="ten">
+                            ANGELA DEANE
+                        </p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+	<div class="section" id="section3">
+        <div class="slide active">
+            <ul class="runwayImg1">
+                <li>
+                    <img src="images/gucci_runway_backgrond1.jpg" alt="런웨이배경사진1"/>
+                    <h3>
+                        2019 크루즈 패션쇼
+                    </h3>
+                    <p>
+                        알레산드로 미켈레(Alessandro Michele)가 프랑스 아를에서 새롭게<br/>
+                        보이는 남성과 여성 컬렉션.
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div class="slide first">
+            <div class="row expand-column-wrapper">
+                <div class="column">
+                    <p class="expand-column-content"></p>
+                </div>
+                <div class="column">
+                    <p class="expand-column-content"></p>
+                </div>
+                <div class="column">
+                    <p class="expand-column-content"></p>
+                </div>
+                <div class="column">
+                    <p class="expand-column-content"></p>
+                </div>
+                <div class="column">
+                    <p class="expand-column-content"></p>
+                </div>
+            </div>
+        </div>
+        <div class="slide second">
+            <div class="row expand-column-wrapper">
+                <div class="column">
+                    <p class="expand-column-content"></p>
+                </div>
+                <div class="column">
+                    <p class="expand-column-content"></p>
+                </div>
+                <div class="column">
+                    <p class="expand-column-content"></p>
+                </div>
+                <div class="column">
+                    <p class="expand-column-content"></p>
+                </div>
+                <div class="column">
+                    <p class="expand-column-content"></p>
+                </div>
+            </div>
+        </div>
+        <div class="slide three">
+            <div class="row expand-column-wrapper">
+                <div class="column">
+                    <p class="expand-column-content"></p>
+                </div>
+                <div class="column">
+                    <p class="expand-column-content"></p>
+                </div>
+                <div class="column">
+                    <p class="expand-column-content"></p>
+                </div>
+                <div class="column">
+                    <p class="expand-column-content"></p>
+                </div>
+                <div class="column">
+                    <p class="expand-column-content"></p>
+                </div>
+            </div>
+        </div>
+        <div class="slide fore">
+            <div class="row expand-column-wrapper">
+                <div class="column">
+                    <p class="expand-column-content"></p>
+                </div>
+                <div class="column">
+                    <p class="expand-column-content"></p>
+                </div>
+                <div class="column">
+                    <p class="expand-column-content"></p>
+                </div>
+                <div class="column">
+                    <p class="expand-column-content"></p>
+                </div>
+                <div class="column">
+                    <p class="expand-column-content"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
